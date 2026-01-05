@@ -1,0 +1,192 @@
+{
+  "hero": {
+    "tagline": "Turn Social Media Engagement Into Leads and Sales",
+    "title": "Social Media Marketing Services ",
+    "bg": "/banner-img/smm-services.png",
+    "contents": [
+      "Build a powerful online presence with strategic social media marketing services designed to increase brand visibility, audience engagement, and conversions. We help businesses turn social platforms into growth channels through data-driven strategies, compelling content, and targeted advertising. Whether you’re looking to grow a startup or scale an established brand, our social media marketing solutions are built to deliver measurable results."
+    ],
+    "cta": "Get a Free Social Media Audit"
+  },
+  "whySeoMatters": {
+    "title": "Why Social Media Marketing Matters",
+    "contents": [
+      "Social media is no longer just a place to post updates—it’s where people discover brands, interact with content, and decide who they trust. For many customers, social platforms are the first touchpoint in their buying journey, making social media marketing a critical part of any growth strategy.",
+      "A well-planned social media approach helps your business build brand awareness and credibility while creating real conversations with your audience. It allows you to stay visible, share your story, and engage consistently with people who are most likely to become customers. Beyond engagement, social media also plays a key role in driving website traffic, generating leads, and supporting sales through targeted campaigns and remarketing.",
+      "When done right, social media marketing becomes a long-term brand asset. It strengthens customer relationships, improves retention, and supports your overall digital presence. Instead of chasing likes or trends, the focus shifts to meaningful engagement and measurable business impact that grows over time."
+    ]
+  },
+  "services": {
+    "title": "Our Social Media Marketing Services",
+    "items": [
+      {
+        "id": "Community Engagement",
+        "title": "Community Engagement",
+        "icon": "networking",
+        "description": "We actively engage with your audience through comments, messages, and conversations to build trust and foster meaningful relationships. Consistent interaction helps strengthen brand loyalty and turns followers into long-term customers."
+      },
+      {
+        "id": "Customized Social Media Strategies",
+        "title": "Customized Social Media Strategies",
+        "icon": "analytics",
+        "description": "Every business is different, and so is our approach. We create customized social media strategies aligned with your brand goals, target audience, and industry, ensuring your social presence supports real business growth."
+      },
+      {
+        "id": "Platform-Specific Expertise",
+        "title": "Platform-Specific Expertise",
+        "icon": "search",
+        "description": "Each platform has its own audience behavior and content style. We create platform-specific messaging for Instagram, Facebook, LinkedIn, and X, ensuring your content feels natural, relevant, and optimized for engagement on every channel."
+      },
+      {
+        "id": "Reputation Management",
+        "title": "Reputation Management",
+        "icon": "landing",
+        "description": "Your brand reputation matters. We monitor conversations, feedback, and mentions to ensure your online presence reflects credibility and trust. By addressing concerns and highlighting positive engagement, we help protect and strengthen your brand image."
+      },
+      {
+        "id": "Social Media Management",
+        "title": "Social Media Management",
+        "icon": "link",
+        "description": "We handle your social media profiles end-to-end, from content scheduling and publishing to ongoing monitoring. This ensures consistency, activity, and a strong brand voice across all platforms."
+      },
+      {
+        "id": "Targeted Advertising",
+        "title": "Targeted Advertising",
+        "icon": "target",
+        "description": "Our targeted advertising strategies help your brand reach the right audience at the right time. We design and manage paid social campaigns focused on driving engagement, leads, and conversions while maximizing return on ad spend."
+      },
+      {
+        "id": "Analytics and Performance Tracking",
+        "title": "Analytics and Performance Tracking",
+        "icon": "pen-tool",
+        "description": "We track performance through detailed analytics, measuring reach, engagement, traffic, and conversions. These insights allow us to continuously refine strategies and focus on what delivers real, measurable results."
+      }
+    ]
+  },
+  "process": {
+    "title": "Our Social Media Marketing Process",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Discovery & Brand Alignment",
+        "description": "Assess your current presence, goals, and opportunities"
+      },
+      {
+        "number": 2,
+        "title": "Strategic Planning & Setup",
+        "description": "Define your brand identity and authority roadmap"
+      },
+      {
+        "number": 3,
+        "title": "Content Creation & Publishing",
+        "description": "Create and optimize content across platforms"
+      },
+      {
+        "number": 4,
+        "title": "Performance Monitoring & Optimization",
+        "description": "Expand reach through strategic exposure and engagement"
+      },
+      {
+        "number": 5,
+        "title": "Reporting & Growth Insights",
+        "description": "Track performance and refine strategies continuously"
+      }
+    ]
+  },
+  "whyUs": {
+    "title": "What Sets Our Social Media Marketing Apart",
+    "items": [
+      {
+        "icon": "UserCog",
+        "title": "Customized strategies for every individual",
+        "description": "Authentic, people-first branding approach"
+      },
+      {
+        "icon": "Database",
+        "title": "Authentic, people-first branding approach",
+        "description": "We make judgements based on real data and performance insights, not assumptions or conjecture."
+      },
+      {
+        "icon": "Eye",
+        "title": "Consistent messaging across platforms",
+        "description": "Clear reporting and continual performance tracking ensure you always know where your budget is going and what it's achieving."
+      },
+      {
+        "icon": "PiggyBank",
+        "title": "Focus on authority, trust, and influence",
+        "description": "Instead of chasing traffic for statistics, we prioritise generating leads, sales, and demonstrable growth."
+      },
+      {
+        "icon": "Shield",
+        "title": "Transparent reporting and measurable outcomes",
+        "description": "We handle your ad budget as if it were our own, constantly striving for actual business impact."
+      }
+    ]
+  },
+  "results": {
+    "title": "Social Media Marketing Success Stories & Results",
+    "metrics": [
+      {
+        "icon": "ArrowUp",
+        "title": "Increased visibility and recognition",
+        "description": "Improved positions for target keywords"
+      },
+      {
+        "icon": "Users",
+        "title": "Stronger online credibility and trust",
+        "description": "Increased qualified visitors to your site"
+      },
+      {
+        "icon": "BarChart",
+        "title": "Higher engagement and audience growth",
+        "description": "Better time on site and lower bounce rates"
+      },
+      {
+        "icon": "Target",
+        "title": "More inbound opportunities and leads",
+        "description": "Higher conversion rates from organic traffic"
+      },
+      {
+        "icon": "ArrowUp",
+        "title": "Long-term authority in your niche",
+        "description": "Improved positions for target keywords"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Start Growing on Social Media Today",
+    "description": "If you’re ready to build a stronger presence and drive real business impact, our Social Media Marketing services are here to help.",
+    "primaryButton": "Request a Free Social Media Audit",
+    "secondaryButton": " Talk to a Social Media Specialist Today"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "description": "Got questions? I've got answers. Here are some common queries about my services.",
+    "items": [
+    {
+      "question": "What is Social Media Marketing (SMM)?",
+      "answer": "Social Media Marketing (SMM) involves using social media platforms like Facebook, Instagram, Twitter, and LinkedIn to promote your business, engage with your audience, and drive sales."
+    },
+    {
+      "question": "Why is Social Media Marketing important for my business?",
+      "answer": "Social media marketing helps increase brand awareness, build a loyal community, and generate leads by reaching a larger, more targeted audience."
+    },
+    {
+      "question": "Which social media platforms should I use for my business?",
+      "answer": "The platforms you use depend on your target audience. We help identify the best platforms for your business, whether it's Facebook, Instagram, LinkedIn, Twitter, or others."
+    },
+    {
+      "question": "How long does it take to see results from social media marketing?",
+      "answer": "Social media marketing results take time to build. You can start seeing increased engagement and brand awareness within a few weeks to months, depending on the campaign strategy."
+    },
+    {
+      "question": "What types of content do you create for social media?",
+      "answer": "We create a variety of content, including posts, videos, infographics, stories, and ads, all designed to engage your audience and align with your business goals."
+    },
+    {
+      "question": "How much do Social Media Marketing services cost?",
+      "answer": "The cost of Social Media Marketing services depends on your business needs, goals, and the platforms used. We offer customized plans to fit your budget while maximizing results."
+    }
+  ]
+  }
+}

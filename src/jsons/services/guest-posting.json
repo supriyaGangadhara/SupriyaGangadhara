@@ -1,0 +1,182 @@
+{
+  "hero": {
+    "tagline": "",
+    "title": "Guest Posting Services That Build Authority, Traffic & Rankings",
+    "bg": "/banner-img/guest-posting-services.png",
+    "contents": [
+      "Strengthen your online presence with ethical guest posting services designed to improve domain authority, increase referral traffic, and support long-term SEO growth. We help businesses earn high-quality backlinks from relevant, trusted websites through strategic outreach and value-driven content.",
+      "Our guest posting strategies focus on quality, relevance, and sustainability, not spammy links."
+    ],
+    "cta": "Get a Free Backlink Audit"
+  },
+  "whySeoMatters": {
+    "title": "Why Guest Posting Matters for SEO",
+    "contents": [
+      "Guest posting remains one of the most effective ways to build authority and trust in search engines when done the right way.",
+      "A strong guest posting strategy helps your business: Earn high-quality, relevant backlinks, Improve domain authority and search rankings, Drive referral traffic from trusted websites, Build brand visibility and credibility, Support long-term SEO and content strategies. When executed ethically, guest posting becomes a powerful authority-building asset."
+    ]
+  },
+  "services": {
+    "title": "Our Guest Posting Services",
+    "items": [
+      {
+        "id": "Guest Posting Strategy & Planning",
+        "title": "Guest Posting Strategy & Planning",
+        "icon": "file-text",
+        "description": "We start with a detailed analysis of your website, competitors, and backlink profile. Based on this, we create a custom guest posting strategy aligned with your SEO goals and niche."
+      },
+      {
+        "id": "High-Authority Website Outreach",
+        "title": "High-Authority Website Outreach",
+        "icon": "external-link",
+        "description": "We identify and outreach to relevant, high-authority websites in your industry. Our outreach is personalized, ethical, and focused on building real relationships with publishers."
+      },
+      {
+        "id": "Content Creation for Guest Posts",
+        "title": "Content Creation for Guest Posts",
+        "icon": "settings",
+        "description": "We create high-quality, value-driven content designed to meet editorial standards. Every guest post is: Original and well-researched, Relevant to the publisher’s audience, Contextually linked to your website, Aligned with SEO and brand goals"
+      },
+      {
+        "id": "Contextual Link Placement",
+        "title": "Contextual Link Placement",
+        "icon": "link",
+        "description": "We focus on natural, in-content backlinks that add value to the article. This ensures stronger SEO impact and long-term link stability."
+      },
+      {
+        "id": "Niche & Industry-Specific Links",
+        "title": "Niche & Industry-Specific Links",
+        "icon": "search",
+        "description": "We place guest posts on websites relevant to your industry or niche, improving topical authority and trust signals for search engines."
+      },
+      {
+        "id": "Manual Link Building & Quality Assurance",
+        "title": "Manual Link Building & Quality Assurance",
+        "icon": "pen-tool",
+        "description": "Every link is manually built and reviewed to ensure: White-hat practices, Real traffic potential, Clean link profiles, Long-term SEO safety, No PBNs. No spam. No shortcuts."
+      }
+    ]
+  },
+  "process": {
+    "title": "Our Guest Posting Process",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Website & Backlink Audit",
+        "description": "Analyze current link profile and opportunities"
+      },
+      {
+        "number": 2,
+        "title": "Strategy & Site Selection",
+        "description": "Identify relevant, high-authority websites"
+      },
+      {
+        "number": 3,
+        "title": "Content Creation & Outreach",
+        "description": "Create content and pitch to publishers"
+      },
+      {
+        "number": 4,
+        "title": "Placement & Link Validation",
+        "description": "Secure links and verify quality"
+      },
+      {
+        "number": 5,
+        "title": "Reporting & Monitoring",
+        "description": "Track placements and performance"
+      }
+    ]
+  },
+  "whyUs": {
+    "title": "What Sets Our Guest Posting Services Apart",
+    "items": [
+      {
+        "icon": "UserCog",
+        "title": "White-hat, Google-compliant practices",
+        "description": "We develop unique strategies for each organization rather than using generic campaign templates."
+      },
+      {
+        "icon": "Database",
+        "title": "Industry-relevant, real websites",
+        "description": "We make judgements based on real data and performance insights, not assumptions or conjecture."
+      },
+      {
+        "icon": "Eye",
+        "title": "Editorial-quality content",
+        "description": "Clear reporting and continual performance tracking ensure you always know where your budget is going and what it's achieving."
+      },
+      {
+        "icon": "PiggyBank",
+        "title": "Transparent reporting and link tracking",
+        "description": "Instead of chasing traffic for statistics, we prioritise generating leads, sales, and demonstrable growth."
+      },
+      {
+        "icon": "Shield",
+        "title": "Focus on authority, not link volume",
+        "description": "We handle your ad budget as if it were our own, constantly striving for actual business impact."
+      }
+    ]
+  },
+  "results": {
+    "title": "Guest Posting Success Stories & Results",
+    "metrics": [
+      {
+        "icon": "ArrowUp",
+        "title": "Stronger domain authority",
+        "description": "Improved positions for target keywords"
+      },
+      {
+        "icon": "Users",
+        "title": "Improved keyword rankings",
+        "description": "Increased qualified visitors to your site"
+      },
+      {
+        "icon": "BarChart",
+        "title": "Increased referral traffic",
+        "description": "Better time on site and lower bounce rates"
+      },
+      {
+        "icon": "Target",
+        "title": "Better backlink profile health",
+        "description": "Higher conversion rates from organic traffic"
+      },
+      {
+        "icon": "ArrowUp",
+        "title": "Sustainable SEO growth",
+        "description": "Improved positions for target keywords"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Start Building Authority with Guest Posting",
+    "description": "If you want high-quality backlinks that support long-term SEO success, our Guest Posting services are built to deliver.",
+    "primaryButton": "Request a Free Guest Posting Audit",
+    "secondaryButton": "Talk to an Guest Posting Specialist Today"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "description": "Got questions? I've got answers. Here are some common queries about my services.",
+    "items": [
+    {
+      "question": "What is guest posting and why is it important for SEO?",
+      "answer": "Guest posting is the process of publishing content on other relevant websites with a backlink to your site. It helps improve search engine rankings, increase domain authority, enhance brand visibility, and drive targeted organic traffic."
+    },
+    {
+      "question": "How do you select websites for guest posting?",
+      "answer": "We select websites based on niche relevance, domain authority, organic traffic, spam score, and content quality to ensure safe, high-quality backlinks that comply with Google guidelines."
+    },
+    {
+      "question": "Are the backlinks permanent and do-follow?",
+      "answer": "Yes, most of our guest posts include permanent and do-follow backlinks. Link type and placement details are shared transparently before publishing."
+    },
+    {
+      "question": "Do you provide content for guest posts?",
+      "answer": "Yes, we provide 100% original, SEO-optimized, and niche-relevant content written by professional writers to ensure high acceptance rates and maximum SEO impact."
+    },
+    {
+      "question": "How long does it take to see results from guest posting?",
+      "answer": "SEO improvements from guest posting are typically visible within 4 to 8 weeks, depending on your niche, competition, and overall SEO strategy. Guest posting delivers the best results as part of a long-term SEO plan."
+    }
+  ]
+  }
+}

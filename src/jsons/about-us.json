@@ -1,0 +1,119 @@
+{
+  "hero": {
+    "title": "Your Growth Partner in Digital Marketing",
+    "subtitle": "Driving Digital Growth Through Strategy & Performance",
+    "tagline": "Built to Scale Brands in a Competitive Digital World",
+    "highlight": "Your Goals. Our Strategy. Real Results.",
+    "description": [
+      "Supriyagangadhara is a digital marketing business that focuses on helping organizations flourish in a very competitive digital environment with clarity, confidence, and purpose. In order to create digital experiences that not only grab attention but also turn the proper audience into actual business prospects, we combine strategy, creativity, and analytics.",
+      "We don't think that chasing numbers just for reports is what digital marketing is all about. Meaningful growth, traffic that converts, leads that become customers, and campaigns that produce quantifiable return on investment are all important. Understanding your company's objectives and matching them with how actual people search, interact, and make decisions online is the foundation of every strategy we develop."
+    ],
+    "image": "/banner-img/about-us.jpeg"
+  },
+  "whoWeAre": {
+    "title": "Who We Are",
+    "paragraphs": [
+      "We are a passionate team of SEO specialists, social media marketers, PPC and performance experts, content strategists, and digital growth professionals united by one simple goal: helping businesses grow sustainably in the digital world. We don't believe in one-size-fits-all marketing. Every brand is different, and so are its challenges. That's why we take the time to understand your business, your audience, and your goals before building a strategy.",
+      "From search engine optimization and paid advertising to social media marketing and content strategy, we deliver end-to-end digital growth solutions designed to create real, measurable impact.",
+      "Whether you're a startup trying to increase awareness from the ground up or an established brand looking to scale and dominate your market, we approach each project with an identical degree of focus, devotion, and precision. As an extension of your team, we are transparent, cooperative, and totally committed to your success.",
+      "Fundamentally, we are long-term partners, growth thinkers, and issue solvers. Instead of chasing vanity metrics, we concentrate on traffic that converts, successful campaigns, and strategies that allow your company to grow with assurance."
+    ]
+  },
+  "whatWeDo": {
+    "title": "What We Do",
+    "description": "We provide comprehensive digital marketing services that are intended to facilitate each phase of the client journey and promote long-term company expansion.",
+    "services": [
+      {
+        "icon": "Search",
+        "title": "SEO Services",
+        "description": "Improve search rankings, organic traffic, and long-term visibility"
+      },
+      {
+        "icon": "Share2",
+        "title": "Social Media Marketing",
+        "description": "Increase brand awareness and meaningful engagement"
+      },
+      {
+        "icon": "MousePointer",
+        "title": "Search Engine Marketing",
+        "description": "Instant visibility and qualified leads via paid campaigns"
+      },
+      {
+        "icon": "FileText",
+        "title": "Content Marketing",
+        "description": "Attract, educate, and convert audiences with strategic content"
+      },
+      {
+        "icon": "MapPin",
+        "title": "Local SEO",
+        "description": "Connect with nearby customers and dominate local search results"
+      },
+      {
+        "icon": "Target",
+        "title": "PPC Services",
+        "description": "Performance-based advertising to improve ROI"
+      },
+      {
+        "icon": "Mail",
+        "title": "Email Marketing",
+        "description": "Nurture leads through targeted, automated correspondence"
+      }
+    ],
+    "footer": "Every strategy we implement is research-driven, performance-tested, and continuously optimized to deliver measurable results."
+  },
+  "ourApproach": {
+    "title": "Our Approach",
+    "intro": "We don't believe in one-size-fits-all marketing. Every business is different, and so are its goals, challenges, and customers. That's why our approach always starts with listening and understanding before taking action.",
+    "description": "We take the time to learn about your business, your audience, and your competitive landscape. This helps us build custom digital marketing strategies that align with your growth objectives and support long-term success. Rather than relying on templates or shortcuts, we create strategies that are practical, scalable, and tailored to what your business truly needs.",
+    "points": [
+      {
+        "icon": "BarChart3",
+        "title": "Data-Driven Decisions",
+        "description": "Our decisions are driven by data, not guesswork. We keep a careful eye on performance, examine insights, and apply actual data to improve tactics and outcomes."
+      },
+      {
+        "icon": "Eye",
+        "title": "Transparency",
+        "description": "Transparency is essential to our operations; you will always be able to see exactly what we're working on, how your campaigns are doing, and where there is room for improvement."
+      },
+      {
+        "icon": "Rocket",
+        "title": "Agile & Adaptive",
+        "description": "In a digital world that is always changing, we remain flexible by swiftly adjusting to platform updates, algorithm modifications, and changing consumer behavior."
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "ROI-Focused",
+        "description": "We gauge performance using actual business effect, which includes improved traffic quality, increased engagement, and quantifiable ROI."
+      }
+    ],
+    "footer": "We strive to create long-term value and sustainable growth for your brand at every stage as a reliable partner."
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Us",
+    "intro": "What sets Supriyagangadhara apart is our commitment to performance and partnerships.",
+    "points": [
+      "Proven expertise across SEO, paid media, and organic growth",
+      "Certified professionals with hands-on industry experience",
+      "Clear communication and honest recommendations",
+      "Focus on long-term growth, not short-term wins"
+    ],
+    "footer": "We work as an extension of your team, not just a service provider."
+  },
+  "missionVision": {
+    "mission": {
+      "title": "Our Mission",
+      "description": "Our mission is to help businesses build strong digital foundations, increase online visibility, and achieve consistent growth through ethical, scalable, and measurable marketing strategies."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "We aim to become a trusted digital growth partner for brands worldwide by delivering innovative marketing solutions that evolve with technology, search behavior, and customer expectations."
+    }
+  },
+  "cta": {
+    "title": "Let's Grow Together",
+    "description": "If you're looking for a digital marketing agency that prioritizes strategy, performance, and transparency, we'd love to work with you. Get in touch to discuss how we can help your business grow online.",
+    "buttonText": "Get in Touch",
+    "buttonLink": "/#contact"
+  }
+}

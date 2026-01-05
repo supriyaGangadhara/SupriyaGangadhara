@@ -1,0 +1,135 @@
+{
+    "hero": {
+      "title": "Digital Marketing Insights",
+      "description": "Stay updated with the latest trends, tips, and strategies in digital marketing"
+    },
+    "categories": [
+      {
+        "id": "seo",
+        "name": "SEO",
+        "description": "Search Engine Optimization tips and strategies",
+        "icon": "Search"
+      },
+      {
+        "id": "sem",
+        "name": "SEM",
+        "description": "Search Engine Marketing and paid advertising",
+        "icon": "Target"
+      },
+      {
+        "id": "smm",
+        "name": "Social Media Marketing",
+        "description": "Social media strategies and best practices",
+        "icon": "Share2"
+      },
+      {
+        "id": "content-marketing",
+        "name": "Content Marketing",
+        "description": "Content creation and marketing strategies",
+        "icon": "FileText"
+      },
+      {
+        "id": "email-marketing",
+        "name": "Email Marketing",
+        "description": "Email campaigns and automation",
+        "icon": "Mail"
+      },
+      {
+        "id": "local-seo",
+        "name": "Local SEO",
+        "description": "Local search optimization strategies",
+        "icon": "MapPin"
+      }
+    ],
+    "blogs": [
+      {
+        "id": "10-seo-trends-2025",
+        "title": "10 SEO Trends to Watch in 2025",
+        "excerpt": "Stay ahead of the curve with the latest SEO strategies that will dominate search rankings this year.",
+        "content": "Search engine optimization continues to evolve rapidly. In 2025, we're seeing significant shifts in how search engines rank content and what users expect from their search experience.\n\n## 1. AI-Powered Search Results\n\nGoogle's AI overviews are changing how users interact with search results. Optimizing for featured snippets and AI summaries is now crucial.\n\n## 2. User Experience Signals\n\nCore Web Vitals remain critical. Sites that load fast, are mobile-friendly, and provide excellent UX will continue to rank higher.\n\n## 3. E-E-A-T Emphasis\n\nExperience, Expertise, Authoritativeness, and Trustworthiness are more important than ever. Building author credibility is essential.\n\n## 4. Voice Search Optimization\n\nWith smart speakers and voice assistants becoming ubiquitous, optimizing for conversational queries is key.\n\n## 5. Video SEO\n\nVideo content continues to dominate. Optimizing video titles, descriptions, and transcripts helps capture more traffic.\n\n## 6. Zero-Click Searches\n\nMore searches end without a click. Creating content that still builds brand awareness is crucial.\n\n## 7. Mobile-First Indexing\n\nGoogle primarily uses mobile versions for indexing. Ensure your mobile experience is flawless.\n\n## 8. Local SEO Growth\n\n'Near me' searches continue to grow. Local businesses must optimize their Google Business Profile.\n\n## 9. Semantic Search\n\nSearch engines understand context better. Focus on topics and entities, not just keywords.\n\n## 10. Sustainable SEO\n\nLong-term, ethical SEO practices yield better results than quick fixes.",
+        "date": "Jan 15, 2025",
+        "author": "Supriya",
+        "category": "seo",
+        "image": "/home/services/seo.jpg",
+        "readTime": "8 min read"
+      },
+      {
+        "id": "content-marketing-strategy-guide",
+        "title": "How to Build a Successful Content Marketing Strategy",
+        "excerpt": "Learn the essential steps to create content that resonates with your audience and drives conversions.",
+        "content": "Content marketing is more than just creating blog posts. It's about building a comprehensive strategy that attracts, engages, and converts your target audience.\n\n## Understanding Your Audience\n\nBefore creating any content, you need to understand who you're creating it for. Develop detailed buyer personas that include demographics, pain points, and content preferences.\n\n## Setting Clear Goals\n\nWhat do you want your content to achieve? Whether it's brand awareness, lead generation, or customer retention, your goals will shape your strategy.\n\n## Content Audit\n\nReview your existing content to identify what's working, what needs improvement, and what gaps exist in your content library.\n\n## Content Calendar\n\nPlan your content in advance with a comprehensive editorial calendar. This ensures consistency and helps align content with marketing campaigns.\n\n## Content Types\n\nDiversify your content mix with blog posts, videos, infographics, podcasts, and interactive content to reach different audience segments.\n\n## Distribution Strategy\n\nCreating great content is only half the battle. Develop a distribution plan that includes social media, email, and paid promotion.\n\n## Measurement and Optimization\n\nTrack key metrics like traffic, engagement, and conversions to continuously improve your content performance.",
+        "date": "Jan 10, 2025",
+        "author": "Supriya",
+        "category": "content-marketing",
+        "image": "/home/services/content-marketing.jpg",
+        "readTime": "6 min read"
+      },
+      {
+        "id": "social-media-best-practices-2025",
+        "title": "Social Media Marketing: Best Practices for 2025",
+        "excerpt": "Discover proven tactics to boost engagement and grow your brand on social media platforms.",
+        "content": "Social media marketing continues to evolve with new platforms, features, and user behaviors. Here's what's working in 2025.\n\n## Short-Form Video Dominance\n\nTikTok, Reels, and Shorts continue to drive engagement. Create authentic, entertaining short-form content that resonates with your audience.\n\n## Authentic Storytelling\n\nUsers crave authenticity. Share behind-the-scenes content, employee stories, and genuine brand moments.\n\n## Community Building\n\nFocus on building engaged communities rather than just growing follower counts. Respond to comments, create discussions, and foster connections.\n\n## Influencer Partnerships\n\nMicro and nano influencers often deliver better ROI than mega influencers. Focus on authentic partnerships aligned with your brand values.\n\n## Social Commerce\n\nShoppable posts and in-app purchasing are growing. Optimize your product catalogs and shopping features on each platform.\n\n## AI-Powered Tools\n\nLeverage AI for content creation, scheduling optimization, and audience insights while maintaining your brand voice.\n\n## Platform-Specific Strategies\n\nEach platform has unique characteristics. Tailor your content and approach for LinkedIn, Instagram, TikTok, and other platforms.",
+        "date": "Jan 5, 2025",
+        "author": "Supriya",
+        "category": "smm",
+        "image": "/home/services/smm.jpg",
+        "readTime": "7 min read"
+      },
+      {
+        "id": "google-ads-optimization-tips",
+        "title": "Google Ads Optimization: 15 Tips for Better ROI",
+        "excerpt": "Maximize your paid search performance with these proven Google Ads optimization strategies.",
+        "content": "Getting the most out of your Google Ads budget requires continuous optimization. Here are 15 tips to improve your campaign performance.\n\n## 1. Keyword Match Types\n\nUse a mix of match types strategically. Exact match for high-intent keywords, phrase match for broader coverage.\n\n## 2. Negative Keywords\n\nRegularly review search terms and add negative keywords to prevent wasted spend on irrelevant searches.\n\n## 3. Ad Copy Testing\n\nContinuously test headlines and descriptions. Use responsive search ads to let Google optimize combinations.\n\n## 4. Landing Page Optimization\n\nEnsure landing pages are relevant, fast-loading, and have clear calls to action aligned with your ads.\n\n## 5. Quality Score Improvement\n\nFocus on relevance between keywords, ads, and landing pages to improve Quality Score and reduce costs.\n\n## 6. Audience Targeting\n\nLayer audience targeting with keywords for more precise reach. Use remarketing lists effectively.\n\n## 7. Bid Strategy Selection\n\nChoose the right automated bid strategy based on your goals—conversions, ROAS, or clicks.\n\n## 8. Ad Extensions\n\nUse all relevant extensions—sitelinks, callouts, structured snippets—to increase ad real estate and CTR.\n\n## 9. Device Optimization\n\nAnalyze performance by device and adjust bids accordingly. Mobile often requires different approaches.\n\n## 10. Time-Based Bidding\n\nAdjust bids based on when your audience is most likely to convert. Review day and hour performance data.",
+        "date": "Dec 28, 2024",
+        "author": "Supriya",
+        "category": "sem",
+        "image": "/home/services/sem.png",
+        "readTime": "10 min read"
+      },
+      {
+        "id": "email-marketing-automation-guide",
+        "title": "Email Marketing Automation: A Complete Guide",
+        "excerpt": "Learn how to set up effective email automation workflows that nurture leads and drive conversions.",
+        "content": "Email marketing automation allows you to deliver the right message at the right time without manual intervention. Here's how to get started.\n\n## Welcome Series\n\nCreate a compelling welcome sequence that introduces new subscribers to your brand, values, and offerings over several emails.\n\n## Lead Nurturing\n\nDevelop workflows that guide prospects through the buyer's journey with educational content, case studies, and targeted offers.\n\n## Abandoned Cart Recovery\n\nFor e-commerce, abandoned cart emails can recover significant revenue. Set up timely reminders with compelling incentives.\n\n## Re-engagement Campaigns\n\nWin back inactive subscribers with targeted re-engagement sequences before removing them from your list.\n\n## Post-Purchase Sequences\n\nThank customers, request reviews, and suggest complementary products to maximize customer lifetime value.\n\n## Segmentation Strategies\n\nSegment your audience by behavior, demographics, and preferences to deliver more relevant automated messages.\n\n## Testing and Optimization\n\nContinuously test subject lines, send times, and content to improve open rates and conversions.",
+        "date": "Dec 20, 2024",
+        "author": "Supriya",
+        "category": "email-marketing",
+        "image": "/home/services/email-marketing.png",
+        "readTime": "9 min read"
+      },
+      {
+        "id": "local-seo-google-business-profile",
+        "title": "Mastering Local SEO: Google Business Profile Optimization",
+        "excerpt": "Optimize your Google Business Profile to dominate local search results and attract more customers.",
+        "content": "Your Google Business Profile is often the first impression potential customers have of your business. Here's how to optimize it.\n\n## Complete Your Profile\n\nFill out every section of your profile—business name, address, phone, hours, categories, and attributes. Completeness signals legitimacy.\n\n## Choose the Right Categories\n\nSelect your primary category carefully and add relevant secondary categories. This directly impacts which searches you appear in.\n\n## Add High-Quality Photos\n\nBusinesses with photos receive more requests for directions and website clicks. Add photos of your storefront, interior, products, and team.\n\n## Collect and Respond to Reviews\n\nActively request reviews from satisfied customers. Respond to all reviews—positive and negative—professionally and promptly.\n\n## Post Regular Updates\n\nUse Google Posts to share updates, offers, events, and new products. Fresh content signals an active business.\n\n## Add Products and Services\n\nList your offerings with descriptions and prices. This helps customers understand what you offer before visiting.\n\n## Monitor Insights\n\nUse GBP insights to understand how customers find and interact with your listing. Use this data to optimize further.",
+        "date": "Dec 15, 2024",
+        "author": "Supriya",
+        "category": "local-seo",
+        "image": "/home/services/local-seo.png",
+        "readTime": "7 min read"
+      },
+      {
+        "id": "technical-seo-checklist",
+        "title": "Technical SEO Checklist for 2025",
+        "excerpt": "A comprehensive technical SEO audit checklist to ensure your website is optimized for search engines.",
+        "content": "Technical SEO forms the foundation of your search visibility. Use this checklist to ensure your site is technically sound.\n\n## Site Speed\n\nOptimize Core Web Vitals—LCP, FID, and CLS. Compress images, minify code, and leverage browser caching.\n\n## Mobile Optimization\n\nEnsure responsive design, touch-friendly elements, and fast mobile load times. Test with Google's Mobile-Friendly Test.\n\n## XML Sitemap\n\nCreate and submit an XML sitemap to search engines. Include all important pages and update regularly.\n\n## Robots.txt\n\nConfigure robots.txt properly to guide crawler access. Don't accidentally block important content.\n\n## HTTPS Security\n\nEnsure your entire site uses HTTPS. Check for mixed content issues that might compromise security.\n\n## URL Structure\n\nUse clean, descriptive URLs with relevant keywords. Avoid excessive parameters and dynamic URLs.\n\n## Canonical Tags\n\nImplement canonical tags to prevent duplicate content issues. Point to the preferred version of each page.\n\n## Schema Markup\n\nAdd structured data to help search engines understand your content and enable rich results.\n\n## Internal Linking\n\nCreate a logical internal linking structure that distributes authority and helps users navigate.",
+        "date": "Dec 10, 2024",
+        "author": "Supriya",
+        "category": "seo",
+        "image": "/home/services/seo.jpg",
+        "readTime": "8 min read"
+      },
+      {
+        "id": "ppc-vs-seo-comparison",
+        "title": "PPC vs SEO: Which Strategy is Right for Your Business?",
+        "excerpt": "Compare paid and organic search strategies to determine the best approach for your marketing goals.",
+        "content": "Both PPC and SEO have their place in a comprehensive digital marketing strategy. Here's how to choose the right approach.\n\n## Speed to Results\n\nPPC delivers immediate visibility once campaigns are live. SEO takes 3-6 months to show significant results.\n\n## Cost Structure\n\nPPC requires ongoing ad spend. SEO is an investment that can deliver long-term returns without per-click costs.\n\n## Click-Through Rates\n\nOrganic results generally get more clicks, but PPC dominates above-the-fold real estate for commercial queries.\n\n## Trust and Credibility\n\nUsers often trust organic results more. However, well-crafted ads can still convert effectively.\n\n## Targeting Capabilities\n\nPPC offers precise targeting by demographics, location, and behavior. SEO targets based on search intent.\n\n## When to Use PPC\n\n- Launching new products\n- Time-sensitive promotions\n- Competitive keywords with slow organic progress\n- Testing messaging and landing pages\n\n## When to Focus on SEO\n\n- Building long-term organic traffic\n- Establishing thought leadership\n- Limited marketing budget\n- Industries with high CPCs\n\n## The Best Approach\n\nMost businesses benefit from a combined strategy that leverages the strengths of both channels.",
+        "date": "Dec 5, 2024",
+        "author": "Supriya",
+        "category": "sem",
+        "image": "/services/sem.jpg",
+        "readTime": "6 min read"
+      }
+    ]
+  }
+  

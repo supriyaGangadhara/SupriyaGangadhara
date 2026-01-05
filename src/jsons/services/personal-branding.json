@@ -1,0 +1,186 @@
+{
+  "hero": {
+    "tagline": "",
+    "title": "Personal Branding Services That Build Authority, Trust & Influence",
+    "bg": "/banner-img/personal-branding-services.png",
+    "contents": [
+      "Stand out in a competitive digital world with strategic personal branding services designed to position you as a credible, recognizable, and influential authority in your industry. We help founders, professionals, executives, and creators build a powerful personal brand that attracts the right audience and creates lasting impact.",
+      "From brand identity to content, visibility, and reputation management, our personal branding strategies are built to deliver measurable results."
+    ],
+    "cta": "Get a Free Personal Branding Consultation"
+  },
+  "whySeoMatters": {
+    "title": "Why Personal Branding Matters Today",
+    "contents": [
+      "People trust people more than logos. A strong personal brand helps you build credibility, influence decisions, and open new opportunities.",
+      "Effective personal branding helps you: Establish authority and thought leadership, Build trust with your audience, Increase visibility across digital platforms, Attract clients, partnerships, and opportunities, Control your online narrative and reputation, In today’s AI-driven and search-first world, personal branding is no longer optional—it’s a growth asset."
+    ]
+  },
+  "services": {
+    "title": "Our Personal Branding Services",
+    "items": [
+      {
+        "id": "Personal Brand Strategy & Positioning",
+        "title": "Personal Brand Strategy & Positioning",
+        "icon": "analytics",
+        "description": "We start by understanding your goals, audience, industry, and strengths. Based on this, we develop a custom personal branding strategy that defines your positioning, messaging, tone, and visibility roadmap."
+      },
+      {
+        "id": "Brand Identity & Messaging",
+        "title": "Brand Identity & Messaging",
+        "icon": "external-link",
+        "description": "We help you craft a clear, authentic brand identity that reflects who you are and what you stand for. This includes: Personal brand positioning, Core messaging and value proposition, Brand voice and storytelling framework. Consistency is key to building recognition and trust."
+      },
+      {
+        "id": "Targeted Content & Thought Leadership",
+        "title": "Targeted Content & Thought Leadership",
+        "icon": "settings",
+        "description": "We create and execute content strategies that establish you as an expert in your field. From blogs and LinkedIn posts to social media content, we ensure your voice reaches the right audience and builds authority over time."
+      },
+      {
+        "id": "Social Media Optimization",
+        "title": "Social Media Optimization",
+        "icon": "link",
+        "description": "We optimize your social media profiles to strengthen visibility, credibility, and engagement. By ensuring consistent branding across platforms, we help reinforce your personal brand and grow your digital presence."
+      },
+      {
+        "id": "Online Reputation Management",
+        "title": "Online Reputation Management",
+        "icon": "search",
+        "description": "Your online reputation shapes how people perceive you. We monitor your digital footprint, manage feedback, and amplify positive content to protect and enhance your personal brand’s credibility."
+      },
+      {
+        "id": "Public Exposure & Networking",
+        "title": "Public Exposure & Networking",
+        "icon": "pen-tool",
+        "description": "We create opportunities for increased visibility through media features, speaking engagements, podcasts, and networking platforms. These efforts help position you as a recognized and trusted voice in your industry."
+      }
+    ]
+  },
+  "process": {
+    "title": "Our Personal Branding Process",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Discovery & Brand Audit",
+        "description": "Assess your current presence, goals, and opportunities"
+      },
+      {
+        "number": 2,
+        "title": "Strategy & Positioning",
+        "description": "Define your brand identity and authority roadmap"
+      },
+      {
+        "number": 3,
+        "title": "Content & Profile Optimization",
+        "description": "Create and optimize content across platforms"
+      },
+      {
+        "number": 4,
+        "title": "Visibility & Growth",
+        "description": "Expand reach through strategic exposure and engagement"
+      },
+      {
+        "number": 5,
+        "title": "Monitoring & Optimization",
+        "description": "Track performance and refine strategies continuously"
+      }
+    ]
+  },
+  "whyUs": {
+    "title": "What Sets Our Personal Branding Services Apart",
+    "items": [
+      {
+        "icon": "UserCog",
+        "title": "Customized strategies for every individual",
+        "description": "Authentic, people-first branding approach"
+      },
+      {
+        "icon": "Database",
+        "title": "Authentic, people-first branding approach",
+        "description": "We make judgements based on real data and performance insights, not assumptions or conjecture."
+      },
+      {
+        "icon": "Eye",
+        "title": "Consistent messaging across platforms",
+        "description": "Clear reporting and continual performance tracking ensure you always know where your budget is going and what it's achieving."
+      },
+      {
+        "icon": "PiggyBank",
+        "title": "Focus on authority, trust, and influence",
+        "description": "Instead of chasing traffic for statistics, we prioritise generating leads, sales, and demonstrable growth."
+      },
+      {
+        "icon": "Shield",
+        "title": "Transparent reporting and measurable outcomes",
+        "description": "We handle your ad budget as if it were our own, constantly striving for actual business impact."
+      }
+    ]
+  },
+  "results": {
+    "title": "Personal Branding Success Stories & Results",
+    "metrics": [
+      {
+        "icon": "ArrowUp",
+        "title": "Increased visibility and recognition",
+        "description": "Improved positions for target keywords"
+      },
+      {
+        "icon": "Users",
+        "title": "Stronger online credibility and trust",
+        "description": "Increased qualified visitors to your site"
+      },
+      {
+        "icon": "BarChart",
+        "title": "Higher engagement and audience growth",
+        "description": "Better time on site and lower bounce rates"
+      },
+      {
+        "icon": "Target",
+        "title": "More inbound opportunities and leads",
+        "description": "Higher conversion rates from organic traffic"
+      },
+      {
+        "icon": "ArrowUp",
+        "title": "Long-term authority in your niche",
+        "description": "Improved positions for target keywords"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Start Growing with Personal Branding",
+    "description": "If you want faster visibility, better leads, and measurable ROI, our Personal Branding services are built to deliver.",
+    "primaryButton": " Request a Free Personal Branding Audit",
+    "secondaryButton": "Talk to a Personal Branding Expert Today"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "description": "Got questions? I've got answers. Here are some common queries about my services.",
+    "items": [
+      {
+        "question": "What is personal branding?",
+        "answer": "Personal branding is the process of creating and managing your unique image, reputation, and presence both online and offline. It helps you stand out in your industry and connect with your audience."
+      },
+      {
+        "question": "Why is personal branding important?",
+        "answer": "Personal branding is essential for building credibility, trust, and recognition. It helps you differentiate yourself from others, attract opportunities, and create a lasting impact in your field."
+      },
+      {
+        "question": "How do personal branding services work?",
+        "answer": "Personal branding services help define your unique identity, craft your narrative, and design strategies for promoting your brand. This can include content creation, social media optimization, reputation management, and public exposure."
+      },
+      {
+        "question": "What platforms do you use for personal branding?",
+        "answer": "We leverage a variety of platforms, including social media channels like LinkedIn, Instagram, and Twitter, as well as blogs, websites, and public speaking engagements, to build and promote your personal brand."
+      },
+      {
+        "question": "How long does it take to build a personal brand?",
+        "answer": "Building a strong personal brand is a gradual process. While you may start seeing early results in a few months, establishing a recognized and influential brand typically takes time and consistent effort."
+      },
+      {
+        "question": "Can personal branding help my career or business?",
+        "answer": "Yes, personal branding is a powerful tool for career advancement and business growth. It helps you become known for your expertise, attract opportunities, and gain trust from your audience, leading to long-term success."
+      }
+    ]
+  }
+}

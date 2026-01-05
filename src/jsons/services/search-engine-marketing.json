@@ -1,0 +1,181 @@
+{
+  "hero": {
+    "tagline": "Turn Search Ads Into Consistent Revenue",
+    "title": "Search Engine Marketing (SEM) Services",
+    "bg": "/banner-img/sem-services.png",
+    "contents": [
+      "Accelerate your business growth with strategic Search Engine Marketing (SEM) designed to put your brand in front of high-intent customers at the exact moment they are searching. Our SEM services focus on precision targeting, smart budgeting, and continuous optimization to deliver measurable results across Google Paid Search and other platforms.",
+      "Whether you’re looking to generate immediate leads, increase sales, or scale faster, our paid search strategies are built to maximize ROI and performance."
+    ],
+    "cta": " Get a Free SEM Audit"
+  },
+  "whySeoMatters": {
+    "title": "Why Search Engine Marketing Matters",
+    "contents": [
+      "Search Engine Marketing gives your business immediate visibility at the exact moment potential customers are searching for your products or services. Unlike organic channels that take time to gain momentum, SEM allows you to appear at the top of search results right away, making it one of the fastest ways to drive traffic and conversions. With the right strategy in place, SEM helps you reach people with clear intent, users who are actively looking to take action, not just browse. It gives you full control over who sees your ads, how much you spend, and how your campaigns perform. This level of control makes SEM especially powerful for testing offers, launching new services, and scaling growth quickly.",
+      "SEM also supports every stage of the buying journey. Whether users are researching, comparing options, or ready to convert, well-structured campaigns ensure your brand shows up at the right time with the right message. When managed properly, this leads to more predictable leads, consistent revenue, and measurable ROI. The real strength of SEM lies in the data. Performance tracking, testing, and continuous optimization enable campaigns to improve over time, reducing wasted spend while increasing efficiency. When backed by insights and experience, SEM becomes a reliable growth channel that delivers both speed and scalability for your business."
+    ]
+  },
+  "services": {
+    "title": "Our Search Engine Marketing Services",
+    "items": [
+      {
+        "id": "Comprehensive SEM Strategy & Planning",
+        "title": "Comprehensive SEM Strategy & Planning",
+        "icon": "file-text",
+        "description": "We start by understanding your business goals, audience, and competitive landscape. Our team develops a custom SEM strategy aligned with your objectives, budget, and growth targets. This includes keyword mapping, audience segmentation, bidding strategy, and campaign structure."
+      },
+      {
+        "id": "Keyword Research & Intent Targeting",
+        "title": "Keyword Research & Intent Targeting",
+        "icon": "external-link",
+        "description": "We identify high-value keywords based on search intent, competition, and conversion potential. By targeting the right keywords, we ensure your ads attract users who are most likely to take action."
+      },
+      {
+        "id": "Google Ads Campaign Management",
+        "title": "Google Ads Campaign Management",
+        "icon": "settings",
+        "description": "We create and manage high-performing Google Ads campaigns, including: Search Ads, Display Ads, Performance Max campaigns, Remarketing campaigns.From ad copy creation to bid optimization, every element is designed to improve click-through rates and conversions."
+      },
+      {
+        "id": "Precision Targeting & Audience Segmentation",
+        "title": "Precision Targeting & Audience Segmentation",
+        "icon": "link",
+        "description": "Using advanced targeting tools, we reach the right audience based on demographics, behavior, location, and intent. This ensures your ads are shown to users who are most likely to engage and convert."
+      },
+      {
+        "id": "Conversion Tracking & Analytics",
+        "title": "Conversion Tracking & Analytics",
+        "icon": "search",
+        "description": "We set up accurate conversion tracking and integrate analytics tools to measure real business outcomes. This allows us to track leads, sales, and ROI—not just clicks."
+      },
+      {
+        "id": "Continuous Optimization & A/B Testing",
+        "title": "Continuous Optimization & A/B Testing",
+        "icon": "pen-tool",
+        "description": "SEM is not a set-and-forget channel. We continuously optimize your campaigns by: Testing ad copy and creatives, Adjusting bids and budgets, Refining keyword targeting, Improving landing page performance, This ongoing optimization ensures better efficiency and stronger results over time."
+      }
+    ]
+  },
+  "process": {
+    "title": "Our SEM Process",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Discovery & Goal Alignment",
+        "description": "We begin by understanding your business objectives, target audience, and competitive landscape to align our SEM strategy with your goals."
+      },
+      {
+        "number": 2,
+        "title": "Strategic Campaign Planning",
+        "description": "Our team develops a comprehensive campaign structure including keyword mapping, audience segmentation, and bidding strategies."
+      },
+      {
+        "number": 3,
+        "title": "Campaign Launch & Monitoring",
+        "description": "We launch your campaigns with precision targeting and closely monitor performance from day one."
+      },
+      {
+        "number": 4,
+        "title": "Continuous Optimization & Scaling",
+        "description": "Through ongoing testing and refinement, we optimize campaigns to improve efficiency and scale successful strategies."
+      },
+      {
+        "number": 5,
+        "title": "Performance Reporting & Insights",
+        "description": "Regular reports provide full transparency into campaign performance, ROI, and actionable insights for continued growth."
+      }
+    ]
+  },
+  "whyUs": {
+    "title": "What Sets Our SEM Services Apart",
+    "items": [
+      {
+        "icon": "UserCog",
+        "title": "Individual Strategies",
+        "description": "We develop unique strategies for each organization rather than using generic campaign templates."
+      },
+      {
+        "icon": "Database",
+        "title": "Data-Driven Decisions",
+        "description": "We make judgements based on real data and performance insights, not assumptions or conjecture."
+      },
+      {
+        "icon": "Eye",
+        "title": "Complete Transparency",
+        "description": "Clear reporting and continual performance tracking ensure you always know where your budget is going and what it's achieving."
+      },
+      {
+        "icon": "PiggyBank",
+        "title": "ROI-Focused Approach",
+        "description": "Instead of chasing traffic for statistics, we prioritise generating leads, sales, and demonstrable growth."
+      },
+      {
+        "icon": "Shield",
+        "title": "Responsible Budget Management",
+        "description": "We handle your ad budget as if it were our own, constantly striving for actual business impact."
+      }
+    ]
+  },
+  "results": {
+    "title": "SEM Success Stories & Results",
+    "metrics": [
+      {
+        "icon": "ArrowUp",
+        "title": "Higher Search Rankings",
+        "description": "Improved positions for target keywords"
+      },
+      {
+        "icon": "Users",
+        "title": "More Organic Traffic",
+        "description": "Increased qualified visitors to your site"
+      },
+      {
+        "icon": "BarChart",
+        "title": "Improved Engagement Metrics",
+        "description": "Better time on site and lower bounce rates"
+      },
+      {
+        "icon": "Target",
+        "title": "Better Lead Quality & Conversions",
+        "description": "Higher conversion rates from organic traffic"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Start Growing with Search Engine Marketing",
+    "description": "If you want faster visibility, better leads, and measurable ROI, our Search Engine Marketing services are built to deliver.",
+    "primaryButton": "Request a Free SEM Audit",
+    "secondaryButton": "Talk to a Paid Search Specialist"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "description": "Got questions? I've got answers. Here are some common queries about my services.",
+    "items": [
+      {
+        "question": "What exactly is Search Engine Marketing (SEM)?",
+        "answer": "SEM is the practice of using paid search ads and strategies to increase your website's visibility on search engines like Google. It helps drive targeted traffic and boosts brand visibility through paid advertising."
+      },
+      {
+        "question": "Why should I use SEM for my business?",
+        "answer": "SEM ensures your business shows up when potential customers search for related products or services. It's an effective way to attract quality leads and increase sales quickly."
+      },
+      {
+        "question": "How does SEM differ from SEO?",
+        "answer": "While SEO focuses on improving organic rankings through on-page and off-page strategies, SEM involves paying for ads that appear at the top of search results. SEM delivers immediate visibility, while SEO takes time to show results."
+      },
+      {
+        "question": "How do you determine which keywords to target for SEM?",
+        "answer": "We conduct in-depth keyword research based on your industry, audience, and competition. By identifying the most relevant and high-performing keywords, we ensure your ads reach the right people at the right time."
+      },
+      {
+        "question": "How much should I budget for SEM campaigns?",
+        "answer": "The cost of SEM campaigns depends on factors like competition, keyword demand, and your campaign goals. We work with you to set a budget that fits your needs while maximizing ROI and results."
+      },
+      {
+        "question": "How will I know if my SEM campaigns are working?",
+        "answer": "We provide regular performance reports that track key metrics like impressions, clicks, and conversions. By analyzing this data, we continuously optimize your campaigns to ensure they deliver the best possible results."
+      }
+    ]
+  }
+}

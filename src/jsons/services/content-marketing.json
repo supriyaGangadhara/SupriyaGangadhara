@@ -1,0 +1,194 @@
+{
+  "hero": {
+    "tagline": "Strategic Content Marketing Built for Business Growth",
+    "title": "Content Marketing Services",
+    "bg": "/banner-img/content-marketing-services.png",
+    "contents": [
+      "Grow your brand with strategic content marketing services designed to attract the right audience, build trust, and convert interest into action. We help businesses create meaningful, high-quality content that supports SEO, strengthens brand authority, and drives measurable business results.",
+      "From strategy to execution, our content marketing approach focuses on delivering value at every stage of the customer journey."
+    ],
+    "cta": "Get a Free Content Marketing Consultation"
+  },
+  "whySeoMatters": {
+    "title": "Why Content Marketing Matters",
+    "contents": [
+      "Content is at the heart of how brands connect with people today. It’s what drives search visibility, supports social media efforts, nurtures potential customers, and shapes how your brand is perceived over time. Without strong content, even the best marketing strategies struggle to create lasting impact.",
+      "A well-planned content marketing strategy helps your business show up consistently in search results while building trust and authority with your audience. It allows you to educate, inform, and engage people at every stage of their journey, long before they’re ready to buy. Over time, this creates stronger relationships and more confident purchasing decisions.",
+      "Content marketing also plays a key role in generating high-quality leads and conversions. Instead of pushing messages, it attracts the right audience by answering real questions and providing genuine value. When done right, content doesn’t just perform once; it continues to work for your business, becoming a long-term asset that supports sustainable growth and delivers results well into the future."
+    ]
+  },
+  "services": {
+    "title": "Our Content Marketing Services",
+    "items": [
+      {
+        "id": "Blog & Article Writing",
+        "title": "Blog & Article Writing",
+        "icon": "file-text",
+        "description": "We create high-quality blog posts and articles that educate, engage, and attract the right audience. Each piece is written with a clear purpose—supporting SEO, building authority, and guiding readers toward action."
+      },
+      {
+        "id": "Content Analytics & Reporting",
+        "title": "Content Analytics & Reporting",
+        "icon": "external-link",
+        "description": "We track how your content performs across key metrics such as traffic, engagement, conversions, and ROI. These insights help us understand what’s working, what needs improvement, and where new opportunities exist."
+      },
+      {
+        "id": "Content Distribution & Promotion",
+        "title": "Content Distribution & Promotion",
+        "icon": "settings",
+        "description": "Great content needs the right exposure. We promote your content across organic search, social media, email marketing, and other relevant channels to ensure it reaches the right audience at the right time."
+      },
+      {
+        "id": "Content Strategy Development",
+        "title": "Content Strategy Development",
+        "icon": "link",
+        "description": "Every successful content effort starts with a clear plan. We develop content strategies based on your business goals, audience needs, and competitive landscape—defining topics, formats, and publishing direction for long-term growth."
+      },
+      {
+        "id": "Email Newsletter Campaigns",
+        "title": "Email Newsletter Campaigns",
+        "icon": "search",
+        "description": "We create engaging email newsletters that keep your audience informed, nurtured, and connected to your brand. These campaigns support retention, repeat engagement, and relationship-building over time."
+      },
+      {
+        "id": "SEO Content Optimization",
+        "title": "SEO Content Optimization",
+        "icon": "pen-tool",
+        "description": "We optimize existing and new content to improve search visibility and relevance. By aligning content with search intent, keywords, and topical authority, we help it rank better and perform longer."
+      },
+      {
+        "id": "Social Media Content Creation",
+        "title": "Social Media Content Creation",
+        "icon": "external-link",
+        "description": "We create platform-friendly content designed to drive engagement and brand recall across social media channels. Each post is aligned with your brand voice and audience behavior."
+      },
+      {
+        "id": "Video Content Production",
+        "title": "Video Content Production",
+        "icon": "settings",
+        "description": "We support video content creation that captures attention and communicates your message clearly. From short-form social videos to brand storytelling formats, video helps increase engagement and reach."
+      }
+    ]
+  },
+  "process": {
+    "title": "Our Content Marketing Process",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Discovery & Content Research",
+        "description": "We begin by understanding your business objectives, target audience, and competitive landscape to align our SEM strategy with your goals."
+      },
+      {
+        "number": 2,
+        "title": "Strategic Content Planning",
+        "description": "Our team develops a comprehensive campaign structure including keyword mapping, audience segmentation, and bidding strategies."
+      },
+      {
+        "number": 3,
+        "title": "Content Creation & Optimization",
+        "description": "We launch your campaigns with precision targeting and closely monitor performance from day one."
+      },
+      {
+        "number": 4,
+        "title": "Content Distribution & Amplification",
+        "description": "Through ongoing testing and refinement, we optimize campaigns to improve efficiency and scale successful strategies."
+      },
+      {
+        "number": 5,
+        "title": "Performance Tracking & Optimization",
+        "description": "Regular reports provide full transparency into campaign performance, ROI, and actionable insights for continued growth."
+      }
+    ]
+  },
+  "whyUs": {
+    "title": "What Sets Our Content Marketing Apart",
+    "items": [
+      {
+        "icon": "UserCog",
+        "title": "Individual Strategies",
+        "description": "We develop unique strategies for each organization rather than using generic campaign templates."
+      },
+      {
+        "icon": "Database",
+        "title": "Data-Driven Decisions",
+        "description": "We make judgements based on real data and performance insights, not assumptions or conjecture."
+      },
+      {
+        "icon": "Eye",
+        "title": "Complete Transparency",
+        "description": "Clear reporting and continual performance tracking ensure you always know where your budget is going and what it's achieving."
+      },
+      {
+        "icon": "PiggyBank",
+        "title": "ROI-Focused Approach",
+        "description": "Instead of chasing traffic for statistics, we prioritise generating leads, sales, and demonstrable growth."
+      },
+      {
+        "icon": "Shield",
+        "title": "Responsible Budget Management",
+        "description": "We handle your ad budget as if it were our own, constantly striving for actual business impact."
+      }
+    ]
+  },
+  "results": {
+    "title": "Content Marketing Success Stories & Results",
+    "metrics": [
+      {
+        "icon": "ArrowUp",
+        "title": "Higher Search Rankings",
+        "description": "Improved positions for target keywords"
+      },
+      {
+        "icon": "Users",
+        "title": "More Organic Traffic",
+        "description": "Increased qualified visitors to your site"
+      },
+      {
+        "icon": "BarChart",
+        "title": "Improved Engagement Metrics",
+        "description": "Better time on site and lower bounce rates"
+      },
+      {
+        "icon": "Target",
+        "title": "Better Lead Quality & Conversions",
+        "description": "Higher conversion rates from organic traffic"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Start Growing with Content Marketing",
+    "description": "If you want faster visibility, better leads, and measurable ROI, our Content Marketing services are built to deliver.",
+    "primaryButton": "Request a Free Content Marketing Audit",
+    "secondaryButton": "Talk to a Paid Search Specialist"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "description": "Got questions? I've got answers. Here are some common queries about my services.",
+    "items": [
+      {
+        "question": "What is content marketing?",
+        "answer": "Content marketing involves creating and sharing valuable, relevant content to attract and engage your target audience, ultimately driving profitable customer actions."
+      },
+      {
+        "question": "Why is content marketing important for my business?",
+        "answer": "Content marketing helps build trust with your audience, improve brand visibility, and increase customer engagement, leading to higher conversions and long-term success."
+      },
+      {
+        "question": "What types of content do you create?",
+        "answer": "We create a variety of content, including blog posts, social media updates, videos, infographics, whitepapers, and more, all tailored to your business goals."
+      },
+      {
+        "question": "How long does it take to see results from content marketing?",
+        "answer": "Content marketing is a long-term strategy, and results can take time. However, with consistent effort, you can start seeing improvements in traffic, engagement, and leads within a few months."
+      },
+      {
+        "question": "How do you measure the success of content marketing campaigns?",
+        "answer": "We track key performance indicators (KPIs) such as website traffic, social media engagement, lead generation, and conversions to measure the effectiveness of your content marketing efforts."
+      },
+      {
+        "question": "How can content marketing help with SEO?",
+        "answer": "Content marketing enhances SEO by creating high-quality, keyword-optimized content that improves your website's rankings on search engines, driving more organic traffic to your site."
+      }
+    ]
+  }
+}

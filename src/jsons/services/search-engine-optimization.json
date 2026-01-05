@@ -1,0 +1,179 @@
+{
+  "hero": {
+    "tagline": "Rank Higher. Get Found. Convert More.",
+    "title": "Search Engine Optimization (SEO) Services",
+    "bg": "/banner-img/seo-services.png",
+    "contents": ["Improve your online exposure and long-term growth with our skilled SEO services, which will help your website rank higher, attract qualified traffic, and increase conversions. We use rigorous technological optimisation, strategic content development, and ethical authority building to offer demonstrable outcomes that are tailored to your business objectives."],
+    "cta": "Get a Free SEO Audit"
+  },
+  "whySeoMatters": {
+    "title": "Why SEO Matters for Your Business",
+    "contents": [
+      "SEO is one of the most dependable and long-lasting digital marketing investments a company can make. When people search online for products, services, or solutions, organic search is frequently the first place they look. Arriving at the appropriate time for the correct questions can have a direct impact on your progress. A solid SEO strategy positions your company on the top page of search results, where important choices are made. It increases user confidence and trust since consumers instinctively trust brands that rank high in organic search results. More significantly, SEO generates high-intent traffic, which means that consumers are actively looking for what you have to offer rather than simply surfing.",
+      "Unlike paid advertising, which ceases when you pause your budget, SEO continues to work in the background. Well-optimized content, technical foundations, and authority signals continue to increase exposure and traffic over time. This transforms SEO from a marketing tool to a long-term growth channel that allows you to compete effectively in your market, even as competition grows. When done correctly, SEO does more than just drive people to your website; it brings the right visitors, improves conversion rates, and produces long-term value for your business."
+    ]
+  },
+  "services": {
+    "title": "Our SEO Services",
+    "items": [
+      {
+        "id": "onpage",
+        "title": "On-Page SEO",
+        "icon": "file-text",
+        "description": "We optimise each page of your website to reflect how people search and how search engines interpret content. This involves improving the title tags, meta descriptions, headings, internal links, and general content organisation."
+      },
+      {
+        "id": "offpage",
+        "title": "Off-Page SEO",
+        "icon": "external-link",
+        "description": "Off-page SEO focusses on creating trust outside of your website. We increase your brand's visibility throughout the web by using credible mentions, outreach, and authority signals that search engines value."
+      },
+      {
+        "id": "technical",
+        "title": "Technical SEO",
+        "icon": "settings",
+        "description": "We make sure your website is quick, safe, mobile-friendly, and easy for search engines to crawl and index. From increasing page speed to addressing indexing issues and applying structured data."
+      },
+      {
+        "id": "linkbuilding",
+        "title": "Link Building",
+        "icon": "link",
+        "description": "We concentrate on acquiring high-quality, relevant backlinks from reputable websites that will provide actual value to your SEO. Our strategy prioritises relevancy, authority, and long-term stability."
+      },
+      {
+        "id": "keyword",
+        "title": "Keyword Research",
+        "icon": "search",
+        "description": "Our keyword research is based on search intent, competition analysis, and actual user behaviour. We find high-value keywords including long-tail and local terms."
+      },
+      {
+        "id": "content",
+        "title": "Content Strategy & Optimization",
+        "icon": "pen-tool",
+        "description": "We assist with the creation and optimisation of information that is valuable, clear, and relevant to search intent. From blog articles and landing pages to FAQs."
+      },
+      {
+        "id": "local",
+        "title": "Local SEO",
+        "icon": "map-pin",
+        "description": "For businesses that target specific cities or regions, we optimise your local presence including Google Business Profile, map listings, and location-based searches."
+      }
+    ]
+  },
+  "process": {
+    "title": "Our SEO Process",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Discovery & Growth Audit",
+        "description": "Comprehensive analysis of your current SEO standing, competitors, and growth opportunities."
+      },
+      {
+        "number": "02",
+        "title": "Custom SEO Strategy",
+        "description": "Tailored strategy development aligned with your business goals and market positioning."
+      },
+      {
+        "number": "03",
+        "title": "High-Impact Optimization",
+        "description": "Implementation of on-page, technical, and content optimizations for maximum impact."
+      },
+      {
+        "number": "04",
+        "title": "Performance Tracking & Insights",
+        "description": "Regular monitoring, reporting, and data-driven insights to measure success."
+      },
+      {
+        "number": "05",
+        "title": "Scalable, Ongoing Growth",
+        "description": "Continuous optimization and adjustment based on search behavior and algorithm changes."
+      }
+    ]
+  },
+  "whyUs": {
+    "title": "What Sets Our SEO Apart",
+    "items": [
+      {
+        "icon": "Users",
+        "title": "Custom Strategies for Your Business",
+        "description": "Every plan we create is specific to your company, industry, and growth objectives—because true results come from relevancy, not templates."
+      },
+      {
+        "icon": "Shield",
+        "title": "Ethical, White-Hat Practices",
+        "description": "Our approach is based on ethical SEO tactics that search engines trust and reward in the long term. We prioritise doing things correctly."
+      },
+      {
+        "icon": "Eye",
+        "title": "Transparent Reporting & Support",
+        "description": "You will always have full insight into performance, regular upgrades, and continuous assistance—with no hidden tactics or ambiguous reports."
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Focus on Measurable ROI",
+        "description": "We measure success by what truly matters: measurable business outcomes. Rankings and traffic are important, but we focus on leads and conversions."
+      }
+    ]
+  },
+  "results": {
+    "title": "SEO Success Stories & Results",
+    "metrics": [
+      {
+        "icon": "ArrowUp",
+        "title": "Higher Search Rankings",
+        "description": "Improved positions for target keywords"
+      },
+      {
+        "icon": "Users",
+        "title": "More Organic Traffic",
+        "description": "Increased qualified visitors to your site"
+      },
+      {
+        "icon": "BarChart",
+        "title": "Improved Engagement Metrics",
+        "description": "Better time on site and lower bounce rates"
+      },
+      {
+        "icon": "Target",
+        "title": "Better Lead Quality & Conversions",
+        "description": "Higher conversion rates from organic traffic"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Start Your SEO Journey with Us",
+    "description": "Whether you're launching a new website or looking to boost your existing presence, our SEO experts are here to help.",
+    "primaryButton": "Request a Free SEO Audit",
+    "secondaryButton": "Talk to an SEO Specialist Today"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "description": "Got questions? Here are some common queries about our SEO services.",
+    "items": [
+      {
+        "question": "What are SEO services?",
+        "answer": "SEO services are strategies and techniques used to improve your website's visibility on search engines like Google, helping you attract more organic traffic."
+      },
+      {
+        "question": "Why is SEO important for my business?",
+        "answer": "SEO helps your business rank higher in search results, making it easier for potential customers to find you online and increasing your chances of generating leads and sales."
+      },
+      {
+        "question": "How long does it take to see results from SEO?",
+        "answer": "SEO is a long-term strategy, and you typically start seeing noticeable results within 3-6 months, depending on your goals and industry."
+      },
+      {
+        "question": "What is included in SEO services?",
+        "answer": "SEO services typically include keyword research, on-page optimization, technical SEO, content creation, link building, and performance tracking."
+      },
+      {
+        "question": "Can SEO work for small businesses?",
+        "answer": "Yes, SEO is highly effective for small businesses, helping them compete with larger companies by improving their online visibility and attracting local customers."
+      },
+      {
+        "question": "How much do SEO services cost?",
+        "answer": "The cost of SEO services varies based on your needs, goals, and the level of competition in your industry. Packages can be tailored to fit different budgets."
+      }
+    ]
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "hero": {
+    "tagline": "Turn Paid Clicks Into Real Revenue",
+    "title": "PPC Advertising Services",
+    "bg": "/banner-img/ppc-services.png",
+    "contents": [
+      "Accelerate your business growth with strategic PPC advertising services designed to put your brand in front of high-intent customers at the exact moment they are ready to convert. Our data-driven PPC campaigns focus on performance, precision targeting, and continuous optimization to deliver consistent ROI. Whether you’re launching a new campaign or scaling an existing one, our PPC strategies are built to generate qualified traffic, leads, and sales."
+    ],
+    "cta": "Get a Free PPC Audit"
+  },
+  "whySeoMatters": {
+    "title": "Why PPC Advertising Matters",
+    "contents": [
+      "PPC advertising gives your company fast access to potential clients. Paid ads let you show up at the top of search results and on digital platforms when people are actively looking for your services, saving you from having to wait for long-term results.",
+      "PPC offers speed, control, and clarity when handled properly. You can monitor what's working and what's not, limit your spending, and connect with high-intent users who are prepared to take action. Because of this, PPC is among the best methods for producing leads and sales right away.",
+      "PPC also gives you the flexibility to test and learn quickly. You can experiment with offers, messaging, keywords, and landing pages, then scale what performs best using real data. With expert planning, continuous testing, and ongoing optimization, PPC becomes a powerful growth channel that delivers predictable results and measurable ROI."
+    ]
+  },
+  "services": {
+    "title": "Our PPC Advertising Services",
+    "items": [
+      {
+        "id": "A/B Testing and Performance Analysis",
+        "title": "A/B Testing and Performance Analysis",
+        "icon": "analytics",
+        "description": "We continuously test ads, creatives, keywords, and landing pages to understand what drives the best results. By comparing performance data, we identify winning combinations and refine campaigns to improve efficiency, engagement, and conversions over time."
+      },
+      {
+        "id": "Detailed Analytics and Reporting",
+        "title": "Detailed Analytics and Reporting",
+        "icon": "analytics",
+        "description": "We believe performance should be easy to understand. Through detailed analytics and clear reporting, we track key metrics such as clicks, conversions, cost per lead, and ROI. This transparency helps you see exactly how your ad spend is performing and where growth opportunities exist.."
+      },
+      {
+        "id": "Google Paid Search Management",
+        "title": "Google Paid Search Management",
+        "icon": "search",
+        "description": "We manage high-performing Google Paid Search campaigns designed to capture high-intent traffic. From search and display ads to Performance Max campaigns, every account is structured for visibility, relevance, and measurable results."
+      },
+      {
+        "id": "Keyword Research and Optimization",
+        "title": "Keyword Research and Optimization",
+        "icon": "link",
+        "description": "We research and optimize keywords based on search intent, competition, and conversion potential. By targeting the right terms and continuously refining keyword performance, we ensure your ads reach users who are ready to take action."
+      },
+      {
+        "id": "Landing Page Optimization",
+        "title": "Landing Page Optimization",
+        "icon": "search",
+        "description": "Driving traffic is only half the job. We optimize landing pages to improve user experience, messaging clarity, and conversion rates. This ensures the traffic coming from your ads has the best chance of turning into leads or sales."
+      },
+      {
+        "id": "Pay-Per-Click Advertising Creation",
+        "title": "Pay-Per-Click Advertising Creation",
+        "icon": "landing",
+        "description": "We create compelling PPC ads that capture attention and encourage clicks. From ad copy and headlines to creatives and extensions, every element is crafted to improve engagement, quality scores, and overall campaign performance."
+      },
+      {
+        "id": "PPC Campaign Strategy",
+        "title": "PPC Campaign Strategy",
+        "icon": "pen-tool",
+        "description": "Every campaign starts with a clear strategy. We align your PPC campaigns with your business goals, budget, and growth targets, ensuring your ad spend supports long-term performance rather than short-term clicks."
+      },
+      {
+        "id": "Remarketing Campaigns",
+        "title": "Remarketing Campaigns",
+        "icon": "pen-tool",
+        "description": "Not every visitor converts on the first visit. Our remarketing campaigns help re-engage users who have interacted with your website or ads, keeping your brand top of mind and increasing conversion opportunities."
+      }
+    ]
+  },
+  "process": {
+    "title": "Our PPC Process",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Business Discovery & Goal Alignment",
+        "description": "Assess your current presence, goals, and opportunities"
+      },
+      {
+        "number": 2,
+        "title": "Strategic Campaign Planning",
+        "description": "Define your brand identity and authority roadmap"
+      },
+      {
+        "number": 3,
+        "title": "Campaign Launch & Live Monitoring",
+        "description": "Create and optimize content across platforms"
+      },
+      {
+        "number": 4,
+        "title": "Continuous Optimization & Scaling",
+        "description": "Expand reach through strategic exposure and engagement"
+      },
+      {
+        "number": 5,
+        "title": "Performance Reporting & Insights",
+        "description": "Track performance and refine strategies continuously"
+      }
+    ]
+  },
+  "whyUs": {
+    "title": "What Sets Our PPC Services Apart",
+    "items": [
+      {
+        "icon": "UserCog",
+        "title": "Customized strategies for every individual",
+        "description": "Authentic, people-first branding approach"
+      },
+      {
+        "icon": "Database",
+        "title": "Authentic, people-first branding approach",
+        "description": "We make judgements based on real data and performance insights, not assumptions or conjecture."
+      },
+      {
+        "icon": "Eye",
+        "title": "Consistent messaging across platforms",
+        "description": "Clear reporting and continual performance tracking ensure you always know where your budget is going and what it's achieving."
+      },
+      {
+        "icon": "PiggyBank",
+        "title": "Focus on authority, trust, and influence",
+        "description": "Instead of chasing traffic for statistics, we prioritise generating leads, sales, and demonstrable growth."
+      },
+      {
+        "icon": "Shield",
+        "title": "Transparent reporting and measurable outcomes",
+        "description": "We handle your ad budget as if it were our own, constantly striving for actual business impact."
+      }
+    ]
+  },
+  "results": {
+    "title": "PPC Success Stories & Results",
+    "metrics": [
+      {
+        "icon": "ArrowUp",
+        "title": "Increased visibility and recognition",
+        "description": "Improved positions for target keywords"
+      },
+      {
+        "icon": "Users",
+        "title": "Stronger online credibility and trust",
+        "description": "Increased qualified visitors to your site"
+      },
+      {
+        "icon": "BarChart",
+        "title": "Higher engagement and audience growth",
+        "description": "Better time on site and lower bounce rates"
+      },
+      {
+        "icon": "Target",
+        "title": "More inbound opportunities and leads",
+        "description": "Higher conversion rates from organic traffic"
+      },
+      {
+        "icon": "ArrowUp",
+        "title": "Long-term authority in your niche",
+        "description": "Improved positions for target keywords"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Start Growing with PPC",
+    "description": "If you want immediate visibility, better leads, and measurable ROI, our PPC advertising services are built to deliver.",
+    "primaryButton": " Request a Free PPC Audit",
+    "secondaryButton": " Talk to a Paid Search Specialist Today"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "description": "Got questions? We've got answers. Here are some common queries about our PPC services.",
+    "items": [
+      {
+        "question": "What are pay per click marketing services, and how do they benefit my business?",
+        "answer": "Pay per click marketing services involve running targeted ad campaigns on platforms like Google Ads to drive traffic and conversions. These services help businesses gain immediate visibility, attract potential customers, and achieve measurable ROI."
+      },
+      {
+        "question": "How does PPC advertising work?",
+        "answer": "PPC advertising works by placing ads on search engines and other platforms, where you pay only when someone clicks on your ad. This ensures cost-effective marketing, targeting users actively searching for your products or services."
+      },
+      {
+        "question": "Why should I choose a pay-per-click agency for my campaigns?",
+        "answer": "A professional pay per click agency provides expertise in managing campaigns, optimizing performance, and maximizing ROI. Agencies handle everything from strategy to execution, allowing you to focus on your business."
+      },
+      {
+        "question": "What are pay-per-click ads, and where can I use them?",
+        "answer": "Pay-per-click ads are sponsored advertisements that appear on search engines like Google or social platforms. They are used to attract targeted traffic and can be displayed on Google, YouTube, Facebook, Instagram, and more."
+      },
+      {
+        "question": "How does Google paid search help in PPC marketing?",
+        "answer": "Google paid search is a core component of PPC advertising, allowing businesses to target users based on search queries. It ensures your ads are displayed to people actively searching for products or services you offer."
+      },
+      {
+        "question": "What are the benefits of PPC advertising for small businesses?",
+        "answer": "PPC advertising provides immediate results, precise targeting, and budget flexibility, making it ideal for small businesses to gain visibility and drive sales without large upfront investments."
+      },
+      {
+        "question": "How can a pay-per-click agency improve my PPC campaign performance?",
+        "answer": "An experienced pay-per-click agency conducts keyword research, creates optimized ads, monitors performance, and adjusts strategies to ensure maximum ROI and campaign success."
+      }
+    ]
+  }
+}

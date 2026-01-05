@@ -1,0 +1,187 @@
+{
+  "hero": {
+    "tagline": "",
+    "title": "Email Marketing Services That Engage, Convert & Retain Customers",
+    "bg": "/banner-img/email-marketing.png",
+    "contents": [
+      "Drive consistent growth with strategic email marketing services designed to nurture leads, strengthen customer relationships, and increase conversions. We help businesses turn email into a high-ROI channel through personalized campaigns, smart automation, and data-driven optimization.",
+      "Whether you want to improve engagement, boost sales, or retain customers, our email marketing strategies are built to deliver measurable results."
+    ],
+    "cta": " Get a Free Email Marketing Consultation"
+  },
+  "whySeoMatters": {
+    "title": "Why Email Marketing Matters",
+    "contents": [
+      "Email remains one of the most effective digital marketing channels for building long-term customer relationships and driving repeat business.",
+      "A strong email marketing strategy helps your business: Reach your audience directly and consistently, Personalize communication at scale, Nurture leads across the buyer journey, Increase customer retention and lifetime value, Generate high ROI compared to other channels. When done right, email marketing becomes a powerful growth engine."
+    ]
+  },
+  "services": {
+    "title": "Our Email Marketing Services",
+    "items": [
+      {
+        "id": "Email Strategy & Planning",
+        "title": "Email Strategy & Planning",
+        "icon": "file-text",
+        "description": "We start by understanding your business goals, audience segments, and communication needs. Based on this, we build a custom email marketing strategy aligned with your sales funnel and growth objectives."
+      },
+      {
+        "id": "Campaign Creation & Management",
+        "title": "Campaign Creation & Management",
+        "icon": "external-link",
+        "description": "We design and manage engaging email campaigns that deliver the right message at the right time. This includes:Promotional and newsletter campaigns, Product launches and announcements, Lead nurturing emails, Customer retention campaigns, Each campaign is optimized for engagement and conversions."
+      },
+      {
+        "id": "Personalized & Segmented Emails",
+        "title": "Personalized & Segmented Emails",
+        "icon": "settings",
+        "description": "Relevance drives results. We segment your audience based on behavior, preferences, and lifecycle stage to deliver personalized content that resonates and improves performance."
+      },
+      {
+        "id": "Email Automation & Workflows",
+        "title": "Email Automation & Workflows",
+        "icon": "link",
+        "description": "We create automated email workflows to streamline communication and nurture leads efficiently. This includes: Welcome series, Drip campaigns, Abandoned cart emails, Re-engagement workflows, Automation saves time while maintaining consistent, timely communication."
+      },
+      {
+        "id": "Mobile-Optimized Email Design",
+        "title": "Mobile-Optimized Email Design",
+        "icon": "search",
+        "description": "With most users checking emails on mobile devices, we design responsive emails that look great and function seamlessly across all screen sizes—improving user experience and engagement."
+      },
+      {
+        "id": "A/B Testing & Continuous Optimization",
+        "title": "A/B Testing & Continuous Optimization",
+        "icon": "pen-tool",
+        "description": "We continuously test subject lines, content, CTAs, and timing to improve open rates, click-through rates, and conversions. Optimization is ongoing to ensure better results over time."
+      },
+      {
+        "id": "Analytics, Reporting & Insights",
+        "title": "Analytics, Reporting & Insights",
+        "icon": "analytics",
+        "description": "We track key performance metrics such as open rates, CTRs, conversions, and revenue. Our transparent reports provide clear insights into campaign performance and opportunities for improvement."
+      }
+    ]
+  },
+  "process": {
+    "title": "Our Email Marketing Process",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Discovery & Audience Analysis",
+        "description": "Understand goals, audience segments, and messaging needs"
+      },
+      {
+        "number": 2,
+        "title": "Strategy & Campaign Planning",
+        "description": "Define content, automation, and scheduling"
+      },
+      {
+        "number": 3,
+        "title": "Design & Execution",
+        "description": "Create and launch optimized email campaigns"
+      },
+      {
+        "number": 4,
+        "title": "Testing & Optimization",
+        "description": "Improve performance through A/B testing and insights."
+      },
+      {
+        "number": 5,
+        "title": "Reporting & Growth",
+        "description": "Measure results and refine strategies continuously"
+      }
+    ]
+  },
+  "whyUs": {
+    "title": "What Sets Our Email Marketing Services Apart",
+    "items": [
+      {
+        "icon": "UserCog",
+        "title": "Customized strategies tailored to your business goals",
+        "description": "We develop unique strategies for each organization rather than using generic campaign templates."
+      },
+      {
+        "icon": "Database",
+        "title": "Audience-focused personalization and segmentation",
+        "description": "We make judgements based on real data and performance insights, not assumptions or conjecture."
+      },
+      {
+        "icon": "Eye",
+        "title": "Automation-driven efficiency and consistency",
+        "description": "Clear reporting and continual performance tracking ensure you always know where your budget is going and what it's achieving."
+      },
+      {
+        "icon": "PiggyBank",
+        "title": "Transparent performance tracking and reporting",
+        "description": "Instead of chasing traffic for statistics, we prioritise generating leads, sales, and demonstrable growth."
+      },
+      {
+        "icon": "Shield",
+        "title": "Focus on engagement, conversions, and ROI",
+        "description": "We handle your ad budget as if it were our own, constantly striving for actual business impact."
+      }
+    ]
+  },
+  "results": {
+    "title": "Email Marketing Success Stories & Results",
+    "metrics": [
+      {
+        "icon": "ArrowUp",
+        "title": "Higher open and click-through rates",
+        "description": "Improved positions for target keywords"
+      },
+      {
+        "icon": "Users",
+        "title": "Improved lead nurturing and conversions",
+        "description": "Increased qualified visitors to your site"
+      },
+      {
+        "icon": "BarChart",
+        "title": "Increased revenue from existing audiences",
+        "description": "Better time on site and lower bounce rates"
+      },
+      {
+        "icon": "Target",
+        "title": "Stronger customer engagement and retention",
+        "description": "Higher conversion rates from organic traffic"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Start Growing with Email Marketing",
+    "description": "If you want faster visibility, better leads, and measurable ROI, our Email Marketing services are built to deliver.",
+    "primaryButton": " Request a Free Email Marketing Consultation",
+    "secondaryButton": "Talk to an Email Marketing Specialist Today"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "description": "Got questions? I've got answers. Here are some common queries about my services.",
+    "items": [
+      {
+        "question": "What is email marketing?",
+        "answer": "Email marketing involves sending targeted messages to a group of people via email to promote products, services, or build relationships with your audience."
+      },
+      {
+        "question": "Why should I use email marketing for my business?",
+        "answer": "Email marketing is an effective way to reach and engage your audience directly. It helps build relationships, drive sales, and keep your brand top of mind."
+      },
+      {
+        "question": "What types of emails are included in an email marketing campaign?",
+        "answer": "An email marketing campaign can include newsletters, promotional emails, event invitations, product updates, and personalized offers to engage your audience."
+      },
+      {
+        "question": "How do you ensure my emails reach the right audience?",
+        "answer": "We segment your email list based on customer preferences, behavior, and demographics. This helps us send the right messages to the right people at the right time."
+      },
+      {
+        "question": "How can I measure the success of my email campaigns?",
+        "answer": "We track key metrics like open rates, click-through rates, conversion rates, and unsubscribe rates to assess how well your emails are performing and make improvements."
+      },
+      {
+        "question": "Can email marketing help with customer retention?",
+        "answer": "Yes, email marketing is a powerful tool for keeping your audience engaged, nurturing leads, and building long-term relationships with customers, increasing loyalty and retention."
+      }
+    ]
+  }
+}

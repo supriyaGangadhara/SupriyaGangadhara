@@ -1,0 +1,319 @@
+{
+  "hero": {
+    "title": "Build, Grow & Innovate Rise Digitally with AI-Powered Marketing Solutions",
+    "subheading": "We help businesses attract, engage, and convert their ideal customers through data-driven digital marketing strategies tailored to specific business goals. As a results-focused digital marketing agency, we combine creativity, performance marketing, and analytics to deliver scalable growth across digital channels.",
+    "description": "We are a leading digital marketing company powered by a team of experienced marketers and strategists who specialize in building strong online visibility and driving high-quality engagement. Through integrated online marketing services such as SEO, content marketing, social media marketing, and performance-driven campaigns, we focus on delivering measurable results that fuel long-term business growth.",
+    "buttons": [
+      {
+        "label": "book a free consultation",
+        "href": "https://calendly.com/supriya99722",
+        "variant": "hero",
+        "icon": "ArrowRight"
+      }
+    ],
+    "backgroundImage": "/assets/hero-illustration.svg"
+  },
+  "about": {
+    "title": "About Us",
+    "paragraphs": [
+      "Where creativity meets strategy, we transform businesses into powerful digital brands. As a results-driven digital marketing agency, we go beyond traditional marketing to become a true growth partner for businesses looking to scale in today’s competitive digital scenario. We don’t believe in one-size-fits-all solutions, every brand deserves a strategy built around its unique goals, audience, and market.",
+      "Our mission is simple: to craft customized, innovative digital marketing solutions that help brands stand out, connect meaningfully with their audience, and achieve long-term impact. By combining creative storytelling with data-driven digital marketing strategies, we deliver campaigns that not only look good but perform exceptionally well. From increasing brand visibility to improving customer engagement and driving conversions, our focus is always on measurable results.",
+      "As one of the leading digital marketing services providers, our agency is powered by a passionate team of strategists, creative thinkers, and digital specialists who thrive on challenges. We specialize in a wide range of online marketing services, including SEO, content marketing, social media marketing, performance marketing, and conversion optimization. Every strategy we build is backed by insights, analytics, and continuous optimization.",
+      "Whether your goal is to strengthen your brand’s online presence, generate high-quality leads, or maximize ROI, we align our expertise with your business objectives. As a trusted digital marketing company, we take pride in turning ideas into impactful digital experiences making your goals our goals, and your growth our success."
+    ],
+
+    "achievements": [
+      { "icon": "TrendingUp", "value": "10+", "label": "Successful Campaigns" },
+      { "icon": "Users", "value": "30+", "label": "Happy Clients" },
+      { "icon": "Target", "value": "98%", "label": "Client Satisfaction" },
+      { "icon": "Award", "value": "5+", "label": "Years Experience" }
+    ]
+  },
+  "skills": {
+    "title": "My Skills",
+    "description": "Expertise across all aspects of modern SEO and digital marketing",
+    "skills": [
+      {
+        "icon": "Search",
+        "name": "SEARCH ENGINE OPTIMIZATION (SEO)",
+        "level": 95
+      },
+      {
+        "icon": "Target",
+        "name": "SEARCH ENGINE MARKETING (SEM)",
+        "level": 90
+      },
+      { "icon": "Share2", "name": "SOCIAL MEDIA MARKETING (SMM)", "level": 88 },
+      { "icon": "FileEdit", "name": "CONTENT MARKETING", "level": 92 },
+      { "icon": "MapPin", "name": "LOCAL SEO", "level": 85 },
+      { "icon": "Mail", "name": "EMAIL MARKETING", "level": 90 },
+      { "icon": "Award", "name": "PERSONAL BRANDING", "level": 90 }
+    ]
+  },
+  "trusted_companies": {
+    "title": "Trusted by Leading Platforms",
+    "companies": [
+      {
+        "name": "clickup",
+        "logo": "/company-logo/clickup.svg"
+      },
+      {
+        "name": "Airtable",
+        "logo": "/company-logo/airtable.svg"
+      },
+      {
+        "name": "Mailer Lite",
+        "logo": "/company-logo/mailer.svg"
+      },
+      {
+        "name": "Hotjar",
+        "logo": "/company-logo/hotjar.svg"
+      },
+      {
+        "name": "chargebee",
+        "logo": "/company-logo/chargebee.svg"
+      },
+      {
+        "name": "Web Engage",
+        "logo": "/company-logo/web-engage.svg"
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "We accelerate business growth by combining creative excellence, targeted digital campaigns, and performance optimization, helping brands increase visibility, engage audiences, and achieve long-term digital success.",
+    "services": [
+      {
+        "icon": "Search",
+        "title": "Search Engine Optimization (SEO)",
+        "description": "Improve your website's visibility and rankings with expert SEO services aimed for growth.",
+        "link": "/services/seo-audit",
+        "image": "/home/services/seo.jpg"
+      },
+      {
+        "icon": "BarChart",
+        "title": "Search Engine Marketing (SEM)",
+        "description": "Reach more customers with targeted search engine marketing strategies that increase visibility and deliver measurable results.",
+        "link": "/services/search-engine-marketing",
+        "image": "/home/services/sem.png"
+      },
+      {
+        "icon": "Share2",
+        "title": "Social Media Marketing (SMM)",
+        "description": "Effective social media marketing services improve your brand, drive engagement, and generate leads.",
+        "link": "/services/social-media-marketing",
+        "image": "/home/services/smm.jpg"
+      },
+      {
+        "icon": "FileText",
+        "title": "Content Marketing",
+        "description": "Content marketing services create engaging content that captures attention, educates, and turns viewers into loyal customers.",
+        "link": "/services/content-marketing",
+        "image": "/home/services/content-marketing.jpg"
+      },
+      {
+        "icon": "MapPin",
+        "title": "Local SEO",
+        "description": "Improve your regional visibility with expert local SEO strategies that optimize local searches and connect you with nearby customers.",
+        "link": "/services/local-seo",
+        "image": "/home/services/local-seo.png"
+      },
+      {
+        "icon": "Mail",
+        "title": "Email Marketing",
+        "description": "Connect with customers using personalized email marketing services designed to increase conversions and build loyalty.",
+        "link": "/services/email-marketing",
+        "image": "/home/services/email-marketing.png"
+      },
+      {
+        "icon": "User",
+        "title": "Personal Branding",
+        "description": "Build your brand with creative services that build a strong and unique presence in the market.",
+        "link": "/services/personal-branding",
+        "image": "/home/services/personal-branding.jpeg"
+      },
+      {
+        "icon": "FileText",
+        "title": "Guest Posting Services",
+        "description": "Boost your authority with high-quality guest posts on reputable websites that drive traffic and improve SEO rankings.",
+        "link": "/services/guest-posting",
+        "image": "/home/services/guest-post.png"
+      },
+      {
+        "icon": "Search",
+        "title": "Link Building",
+        "description": "Strengthen your website's authority with strategic link building campaigns that enhance visibility and search rankings.",
+        "link": "/services/link-building",
+        "image": "/home/services/link-building.jpg"
+      }
+    ]
+  },
+  "whyus": {
+    "title": "Why Choose Us?",
+    "subtitle": "We’re a results-driven digital marketing agency that makes your vision our mission. With proven expertise, creative strategies, and a transparent process, we help businesses grow, engage audiences, and drive measurable results. Every campaign is tailored to your goals, ensuring increased visibility, meaningful engagement, and long-term success.",
+    "highlight": "We Make Your Vision Our Mission",
+    "reasons": [
+      {
+        "image": "/why-us/results-driven.png",
+        "title": "Results-Driven",
+        "description": "We turn strategies into results. Each campaign is fine-tuned to deliver actual performance metrics, maximizing ROI and driving meaningful business growth beyond superficial numbers."
+      },
+      {
+        "image": "/why-us/customized-campaigns.png",
+        "title": "Customized Campaigns",
+        "description": "We design marketing strategies tailored to your business objectives, ensuring every campaign connects directly with your target audience and drives measurable results."
+      },
+      {
+        "image": "/why-us/innovative-techniques.png",
+        "title": "Innovative Techniques",
+        "description": "We leverage the latest tools and emerging marketing strategies to keep your business ahead of the competition and deliver measurable results."
+      },
+      {
+        "image": "/why-us/experienced-team.png",
+        "title": "Experienced Team",
+        "description": "Our team of experts combines years of digital marketing experience with creative insight and analytical precision to deliver campaigns that drive real results."
+
+      },
+      {
+        "image":  "/why-us/smart-strategies.png",
+        "title": "Smart Strategies",
+        "description": "We use data-driven insights and proven frameworks to guide every campaign, ensuring your business grows efficiently and effectively."
+      },
+      {
+        "image": "/why-us/client-satisfaction.png",
+        "title": "Client Satisfaction",
+        "description": "Our commitment to delivering measurable outcomes and open communication ensures high client satisfaction and enduring partnerships."
+      }
+    ]
+  },
+  "work_process": {
+    "title": "Our Work Process",
+    "sub_title": "From strategy to execution, our structured process guarantees measurable outcomes and consistent business growth.",
+    "steps": [
+      {
+        "icon": "Lightbulb",
+        "title": "Strategic Planning",
+        "description": "We develop customized strategies that align with your business goals, resonate with your audience, and reflect your brand's vision, ensuring optimal use of resources for maximum impact.",
+        "number": "01"
+      },
+      {
+        "icon": "Rocket",
+        "title": "Seamless Execution",
+        "description": "Our team implements strategies across multiple channels such as social media, SEO, and SMM to expand your reach, enhance engagement, and deliver measurable results.",
+        "number": "02"
+      },
+      {
+        "icon": "Eye",
+        "title": "Continuous Monitoring",
+        "description": "We keep a close eye on campaign performance, tracking key metrics to ensure your strategies remain on course and deliver consistent success.",
+        "number": "03"
+      },
+      {
+        "icon": "BarChart3",
+        "title": "Data-Driven Optimization",
+        "description": "Using in-depth analysis, we refine and adjust strategies to achieve better results, improve efficiency, and capitalize on emerging opportunities.",
+        "number": "04"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Sustainable Growth",
+        "description": "By combining strategic insights and ongoing adjustments, we drive meaningful, long-term growth for your brand, ensuring you stay ahead of the competition.",
+        "number": "05"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Client Testimonials",
+    "description": "Don't just take my word for it - hear from satisfied clients",
+    "cards": [
+      {
+        "name": "Sarah Johnson",
+        "role": "CEO, TechStart Inc",
+        "content": "Working with this SEO expert transformed our online presence. We saw a 300% increase in organic traffic within 6 months!",
+        "rating": 3.5
+      },
+      {
+        "name": "Michael Chen",
+        "role": "Marketing Director, GrowthCo",
+        "content": "The technical SEO audit uncovered issues we didn't even know existed. Rankings improved dramatically after implementation.",
+        "rating": 4
+      },
+      {
+        "name": "Emily Rodriguez",
+        "role": "Founder, LocalBiz",
+        "content": "Local SEO expertise helped us dominate our market. We're now the top result for all our key services in our city.",
+        "rating": 5
+      },
+      {
+        "name": "David Thompson",
+        "role": "VP Marketing, E-Shop Plus",
+        "content": "The content strategy and link building services delivered exceptional ROI. Highly recommend for any serious business.",
+        "rating": 5
+      }
+    ]
+  },
+  "blogs": {
+    "title": "Latest Insights",
+    "description": "Stay updated with the latest trends, tips, and strategies in digital marketing",
+    "cards": [
+      {
+        "title": "10 SEO Trends to Watch in 2025",
+        "excerpt": "Stay ahead of the curve with the latest SEO strategies that will dominate search rankings this year.",
+        "date": "Jan 15, 2025",
+        "author": "Supriya",
+        "category": "SEO"
+      },
+      {
+        "title": "How to Build a Successful Content Marketing Strategy",
+        "excerpt": "Learn the essential steps to create content that resonates with your audience and drives conversions.",
+        "date": "Jan 10, 2025",
+        "author": "Supriya",
+        "category": "Content Marketing"
+      },
+      {
+        "title": "Social Media Marketing: Best Practices for 2025",
+        "excerpt": "Discover proven tactics to boost engagement and grow your brand on social media platforms.",
+        "date": "Jan 5, 2025",
+        "author": "Supriya",
+        "category": "Social Media"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Got questions? I've got answers. Here are some common queries about my services.",
+    "items": [
+      {
+        "question": "What is SEO and why is it important for my business?",
+        "answer": "SEO (Search Engine Optimization) is the practice of optimizing your website to rank higher in search engine results. It's crucial for increasing organic traffic, building credibility, and reaching potential customers who are actively searching for your products or services."
+      },
+      {
+        "question": "How long does it take to see results from SEO?",
+        "answer": "SEO is a long-term strategy. Typically, you can start seeing noticeable improvements within 3-6 months, with more significant results after 6-12 months. The timeline depends on factors like competition, current website status, and the strategies implemented."
+      },
+      {
+        "question": "What's the difference between SEO and SEM?",
+        "answer": "SEO focuses on organic search rankings through optimization techniques, while SEM (Search Engine Marketing) includes paid advertising like Google Ads. SEO provides long-term sustainable results, while SEM offers immediate visibility through paid placements."
+      },
+      {
+        "question": "Do you provide customized digital marketing strategies?",
+        "answer": "Yes! Every business is unique, and I create tailored strategies based on your specific goals, target audience, industry, and budget. I analyze your current online presence and develop a comprehensive plan to achieve your objectives."
+      },
+      {
+        "question": "How do you measure the success of marketing campaigns?",
+        "answer": "I track various KPIs including organic traffic, keyword rankings, conversion rates, engagement metrics, ROI, and more. You'll receive regular detailed reports showing progress and insights, with data-driven recommendations for continuous improvement."
+      },
+      {
+        "question": "Can you help with social media marketing?",
+        "answer": "Absolutely! I offer comprehensive social media marketing services including strategy development, content creation, community management, paid advertising, and analytics. I work across all major platforms to build your brand presence and engage your audience effectively."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Stay in Touch",
+    "sub_title": "Let's turn your business goals into digital success stories!",
+    "description": "Ready to transform your online presence? Get in touch for a free consultation.",
+    "email": "supriya99722@gmail.com",
+    "phone": "9972229161"
+  }
+}

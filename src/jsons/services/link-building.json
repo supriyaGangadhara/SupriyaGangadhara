@@ -1,0 +1,192 @@
+{
+  "hero": {
+    "tagline": "",
+    "title": "Link Building Services That Strengthen Authority & Boost Rankings",
+    "bg": "/banner-img/link-building.png",
+    "contents": [
+      "Build long-term SEO success with ethical link-building services designed to improve domain authority, increase organic rankings, and drive referral traffic. We help businesses earn high-quality, relevant backlinks that search engines trust and reward.",
+      "Our approach focuses on quality, relevance, and sustainability, ensuring your backlink profile supports consistent growth without risk."
+    ],
+    "cta": "Get a Free Backlink Audit"
+  },
+  "whySeoMatters": {
+    "title": "Why Link Building Matters for SEO",
+    "contents": [
+      "Backlinks remain one of the strongest ranking signals in search engines. However, not all links are equal.",
+      " High-quality, relevant links help your website: Improve domain authority and trust, Rank higher for competitive keywords, Drive referral traffic from credible sources, Strengthen topical relevance and SEO signals, Protect your site from algorithm penalties, When done correctly, link building becomes a powerful long-term SEO asset."
+    ]
+  },
+  "services": {
+    "title": "Our Link Building Services",
+    "items": [
+      {
+        "id": "Link Building Strategy & Planning",
+        "title": "Link Building Strategy & Planning",
+        "icon": "file-text",
+        "description": "We start with a detailed analysis of your website, competitors, and existing backlink profile. Based on insights, we create a custom link-building strategy aligned with your SEO goals, industry, and risk tolerance."
+      },
+      {
+        "id": "High-Authority Link Acquisition",
+        "title": "High-Authority Link Acquisition",
+        "icon": "external-link",
+        "description": "We secure backlinks from trusted, high-authority websites relevant to your niche. Every link is earned through ethical outreach and value-driven content, not paid link schemes or networks."
+      },
+      {
+        "id": "Guest Posting & Editorial Links",
+        "title": "Guest Posting & Editorial Links",
+        "icon": "settings",
+        "description": "We place contextual links within high-quality guest posts published on authoritative industry websites. These editorial links deliver strong SEO value and referral traffic."
+      },
+      {
+        "id": "Niche & Industry-Relevant Links",
+        "title": "Niche & Industry-Relevant Links",
+        "icon": "link",
+        "description": "Relevance matters. We focus on acquiring backlinks from websites related to your industry to improve topical authority and search engine trust."
+      },
+      {
+        "id": "Content-Led Link Building",
+        "title": "Content-Led Link Building",
+        "icon": "search",
+        "description": "We use content as a link magnet—creating assets such as blogs, guides, and resources that naturally attract backlinks over time."
+      },
+      {
+        "id": "Manual Outreach & Relationship Building",
+        "title": "Manual Outreach & Relationship Building",
+        "icon": "pen-tool",
+        "description": "Our outreach is fully manual and personalized. We build real relationships with publishers, editors, and site owners to secure long-lasting, high-value links."
+      },
+      {
+        "id": "Link Quality Control & Monitoring",
+        "title": "Link Quality Control & Monitoring",
+        "icon": "analytics",
+        "description": "Every backlink is reviewed for: Domain authority and trust, Relevance and placement context, Spam and toxicity risks, Long-term SEO safety. We also monitor links to ensure they remain live and compliant."
+      }
+    ]
+  },
+  "process": {
+    "title": "Our Link Building Process",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Backlink Audit & Opportunity Analysis",
+        "description": "Identify gaps, risks, and growth opportunities"
+      },
+      {
+        "number": 2,
+        "title": "Strategy Development",
+        "description": "Define link types, targets, and anchor strategy"
+      },
+      {
+        "number": 3,
+        "title": "Outreach & Content Creation",
+        "description": "Secure placements through ethical outreach"
+      },
+      {
+        "number": 4,
+        "title": "Link Placement & Validation",
+        "description": "Review link quality and SEO impact"
+      },
+      {
+        "number": 5,
+        "title": "Reporting & Optimization",
+        "description": "Track performance and refine strategy"
+      }
+    ]
+  },
+  "whyUs": {
+    "title": "What Sets Our Link Building Services Apart",
+    "items": [
+      {
+        "icon": "UserCog",
+        "title": "100% white-hat, Google-compliant practices",
+        "description": "We develop unique strategies for each organization rather than using generic campaign templates."
+      },
+      {
+        "icon": "Database",
+        "title": "Focus on quality over link volume",
+        "description": "We make judgements based on real data and performance insights, not assumptions or conjecture."
+      },
+      {
+        "icon": "Eye",
+        "title": "Industry-relevant and editorial placements",
+        "description": "Clear reporting and continual performance tracking ensure you always know where your budget is going and what it's achieving."
+      },
+      {
+        "icon": "PiggyBank",
+        "title": "Transparent reporting and link tracking",
+        "description": "Instead of chasing traffic for statistics, we prioritise generating leads, sales, and demonstrable growth."
+      },
+      {
+        "icon": "Shield",
+        "title": "Long-term SEO and authority growth focus",
+        "description": "We handle your ad budget as if it were our own, constantly striving for actual business impact."
+      }
+    ]
+  },
+  "results": {
+    "title": "Link Building Success Stories & Results",
+    "metrics": [
+      {
+        "icon": "ArrowUp",
+        "title": "Stronger domain authority",
+        "description": "Improved positions for target keywords"
+      },
+      {
+        "icon": "Users",
+        "title": "Improved keyword rankings",
+        "description": "Increased qualified visitors to your site"
+      },
+      {
+        "icon": "BarChart",
+        "title": "Healthier backlink profiles",
+        "description": "Better time on site and lower bounce rates"
+      },
+      {
+        "icon": "Target",
+        "title": "Increased referral traffic",
+        "description": "Higher conversion rates from organic traffic"
+      },
+      {
+        "icon": "ArrowUp",
+        "title": "Sustainable, long-term SEO growth",
+        "description": "Improved positions for target keywords"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Start Growing with Link Building",
+    "description": "If you want faster visibility, better leads, and measurable ROI, our Link Building services are built to deliver.",
+    "primaryButton": " Request a Free Backlink Audit",
+    "secondaryButton": "Talk to a Link Building Specialist Today"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "description": "Got questions? I've got answers. Here are some common queries about our link building services.",
+    "items": [
+      {
+        "question": "What is link building and why is it important?",
+        "answer": "Link building is the process of acquiring backlinks from other websites to your own. It's crucial for SEO because search engines use links as signals of trust and authority, helping your site rank higher in search results."
+      },
+      {
+        "question": "How long does it take to see results from link building?",
+        "answer": "Link building is a long-term strategy. You can typically start seeing improvements in rankings and traffic within 3-6 months, with more significant results developing over 6-12 months as your link profile strengthens."
+      },
+      {
+        "question": "What makes your link building approach different?",
+        "answer": "We focus on quality over quantity, building genuine relationships with authoritative publishers in your industry. Our process-driven approach ensures every link is relevant, natural, and contributes to your overall SEO goals."
+      },
+      {
+        "question": "Do you use black-hat or risky link building tactics?",
+        "answer": "Absolutely not. We only use white-hat, ethical link building strategies that comply with search engine guidelines. Our focus is on earning high-quality, editorial backlinks that provide long-term value."
+      },
+      {
+        "question": "How do you measure link building success?",
+        "answer": "We track key metrics including domain authority growth, organic traffic increases, keyword ranking improvements, and the quality of referring domains. You'll receive detailed reports showing the impact of our work."
+      },
+      {
+        "question": "Can link building work for my specific industry?",
+        "answer": "Yes! We have experience across diverse industries and customize our strategies to match your specific niche, target audience, and competitive landscape."
+      }
+    ]
+  }
+}
