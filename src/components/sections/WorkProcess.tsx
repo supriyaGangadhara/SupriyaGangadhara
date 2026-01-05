@@ -1,5 +1,5 @@
 import { Lightbulb, Rocket, Eye, BarChart3, TrendingUp } from "lucide-react";
-import strategyIllustration from "/strategy-illustration.jpg";
+import strategyIllustration from "/assets/strategy-illustration.jpg";
 import { motion } from "framer-motion";
 
 const icons: Record<string, any> = {

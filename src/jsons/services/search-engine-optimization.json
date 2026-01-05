@@ -2,7 +2,7 @@
   "hero": {
     "tagline": "Rank Higher. Get Found. Convert More.",
     "title": "Search Engine Optimization (SEO) Services",
-    "bg": "/banner-img/seo-services.png",
+    "bg": "/assets/banner-img/seo-services.png",
     "contents": ["Improve your online exposure and long-term growth with our skilled SEO services, which will help your website rank higher, attract qualified traffic, and increase conversions. We use rigorous technological optimisation, strategic content development, and ethical authority building to offer demonstrable outcomes that are tailored to your business objectives."],
     "cta": "Get a Free SEO Audit"
   },
