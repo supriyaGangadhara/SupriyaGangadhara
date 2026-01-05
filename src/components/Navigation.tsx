@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Moon, Sun, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -50,7 +50,7 @@ const Navigation = () => {
             {/* <div className="w-8 h-8 gradient-primary rounded-lg"></div>
             <span className="text-xl font-bold">Supriya
             </span> */}
-            <img src="/logo/v2.svg" alt="supriya logo" className="aspect-[80/60] " />
+            <img src={theme === "dark" ? "/logo/logo-dark.svg" : "/logo/logo-white.svg"} alt="supriya logo" className="aspect-[80/60] " />
           </Link>
 
           {/* Desktop Navigation */}
