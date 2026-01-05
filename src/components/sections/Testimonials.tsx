@@ -8,7 +8,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { motion } from "framer-motion";
-import testimonialIcon from '/testimonial-icon.webp'
+import testimonialIcon from '/assets/testimonial-icon.webp'
 
 const Testimonials = (props: any) => {
   return (

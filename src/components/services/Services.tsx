@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
-import strategyIcon from "/content-marketing/strategy-icon.png";
-import socialIcon from "/content-marketing/social-icon.png";
+import strategyIcon from "/assets/content-marketing/strategy-icon.png";
+import socialIcon from "/assets/content-marketing/social-icon.png";
 import { Mail, Video, Share2, BarChart3, Smartphone, Star, PenTool, LinkIcon, Store, Search, Target, Workflow, Users, LayoutTemplate, FlaskConical, Receipt, User, FileText, Shield, Globe, Mic, MousePointerClick, Monitor, ExternalLink, Settings, Link, Chrome, RectangleEllipsis, FileBarChart, Handshake, Unlink, Megaphone, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
 

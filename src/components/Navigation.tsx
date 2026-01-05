@@ -50,7 +50,7 @@ const Navigation = () => {
             {/* <div className="w-8 h-8 gradient-primary rounded-lg"></div>
             <span className="text-xl font-bold">Supriya
             </span> */}
-            <img src={theme === "dark" ? "/logo/logo-dark.svg" : "/logo/logo-white.svg"} alt="supriya logo" className="aspect-[80/60] " />
+            <img src={theme === "dark" ? "/assets/logo/logo-dark.svg" : "/assets/logo/logo-white.svg"} alt="supriya logo" className="aspect-[80/60] 3xl:aspect-[290/90]" />
           </Link>
 
           {/* Desktop Navigation */}

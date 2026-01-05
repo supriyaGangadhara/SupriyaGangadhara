@@ -50,7 +50,7 @@
         "date": "Jan 15, 2025",
         "author": "Supriya",
         "category": "seo",
-        "image": "/home/services/seo.jpg",
+        "image": "/assets/home/services/seo.jpg",
         "readTime": "8 min read"
       },
       {
@@ -61,7 +61,7 @@
         "date": "Jan 10, 2025",
         "author": "Supriya",
         "category": "content-marketing",
-        "image": "/home/services/content-marketing.jpg",
+        "image": "/assets/home/services/content-marketing.jpg",
         "readTime": "6 min read"
       },
       {
@@ -72,7 +72,7 @@
         "date": "Jan 5, 2025",
         "author": "Supriya",
         "category": "smm",
-        "image": "/home/services/smm.jpg",
+        "image": "/assets/home/services/smm.jpg",
         "readTime": "7 min read"
       },
       {
@@ -83,7 +83,7 @@
         "date": "Dec 28, 2024",
         "author": "Supriya",
         "category": "sem",
-        "image": "/home/services/sem.png",
+        "image": "/assets/home/services/sem.png",
         "readTime": "10 min read"
       },
       {
@@ -94,7 +94,7 @@
         "date": "Dec 20, 2024",
         "author": "Supriya",
         "category": "email-marketing",
-        "image": "/home/services/email-marketing.png",
+        "image": "/assets/home/services/email-marketing.png",
         "readTime": "9 min read"
       },
       {
@@ -105,7 +105,7 @@
         "date": "Dec 15, 2024",
         "author": "Supriya",
         "category": "local-seo",
-        "image": "/home/services/local-seo.png",
+        "image": "/assets/home/services/local-seo.png",
         "readTime": "7 min read"
       },
       {
@@ -116,7 +116,7 @@
         "date": "Dec 10, 2024",
         "author": "Supriya",
         "category": "seo",
-        "image": "/home/services/seo.jpg",
+        "image": "/assets/home/services/seo.jpg",
         "readTime": "8 min read"
       },
       {
@@ -127,7 +127,7 @@
         "date": "Dec 5, 2024",
         "author": "Supriya",
         "category": "sem",
-        "image": "/services/sem.jpg",
+        "image": "/assets/services/sem.png",
         "readTime": "6 min read"
       }
     ]

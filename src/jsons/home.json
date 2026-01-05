@@ -55,27 +55,27 @@
     "companies": [
       {
         "name": "clickup",
-        "logo": "/company-logo/clickup.svg"
+        "logo": "/assets/company-logo/clickup.svg"
       },
       {
         "name": "Airtable",
-        "logo": "/company-logo/airtable.svg"
+        "logo": "/assets/company-logo/airtable.svg"
       },
       {
         "name": "Mailer Lite",
-        "logo": "/company-logo/mailer.svg"
+        "logo": "/assets/company-logo/mailer.svg"
       },
       {
         "name": "Hotjar",
-        "logo": "/company-logo/hotjar.svg"
+        "logo": "/assets/company-logo/hotjar.svg"
       },
       {
         "name": "chargebee",
-        "logo": "/company-logo/chargebee.svg"
+        "logo": "/assets/company-logo/chargebee.svg"
       },
       {
         "name": "Web Engage",
-        "logo": "/company-logo/web-engage.svg"
+        "logo": "/assets/company-logo/web-engage.svg"
       }
     ]
   },
@@ -88,63 +88,63 @@
         "title": "Search Engine Optimization (SEO)",
         "description": "Improve your website's visibility and rankings with expert SEO services aimed for growth.",
         "link": "/services/seo-audit",
-        "image": "/home/services/seo.jpg"
+        "image": "/assets/home/services/seo.jpg"
       },
       {
         "icon": "BarChart",
         "title": "Search Engine Marketing (SEM)",
         "description": "Reach more customers with targeted search engine marketing strategies that increase visibility and deliver measurable results.",
         "link": "/services/search-engine-marketing",
-        "image": "/home/services/sem.png"
+        "image": "/assets/home/services/sem.png"
       },
       {
         "icon": "Share2",
         "title": "Social Media Marketing (SMM)",
         "description": "Effective social media marketing services improve your brand, drive engagement, and generate leads.",
         "link": "/services/social-media-marketing",
-        "image": "/home/services/smm.jpg"
+        "image": "/assets/home/services/smm.jpg"
       },
       {
         "icon": "FileText",
         "title": "Content Marketing",
         "description": "Content marketing services create engaging content that captures attention, educates, and turns viewers into loyal customers.",
         "link": "/services/content-marketing",
-        "image": "/home/services/content-marketing.jpg"
+        "image": "/assets/home/services/content-marketing.jpg"
       },
       {
         "icon": "MapPin",
         "title": "Local SEO",
         "description": "Improve your regional visibility with expert local SEO strategies that optimize local searches and connect you with nearby customers.",
         "link": "/services/local-seo",
-        "image": "/home/services/local-seo.png"
+        "image": "/assets/home/services/local-seo.png"
       },
       {
         "icon": "Mail",
         "title": "Email Marketing",
         "description": "Connect with customers using personalized email marketing services designed to increase conversions and build loyalty.",
         "link": "/services/email-marketing",
-        "image": "/home/services/email-marketing.png"
+        "image": "/assets/home/services/email-marketing.png"
       },
       {
         "icon": "User",
         "title": "Personal Branding",
         "description": "Build your brand with creative services that build a strong and unique presence in the market.",
         "link": "/services/personal-branding",
-        "image": "/home/services/personal-branding.jpeg"
+        "image": "/assets/home/services/personal-branding.jpeg"
       },
       {
         "icon": "FileText",
         "title": "Guest Posting Services",
         "description": "Boost your authority with high-quality guest posts on reputable websites that drive traffic and improve SEO rankings.",
         "link": "/services/guest-posting",
-        "image": "/home/services/guest-post.png"
+        "image": "/assets/home/services/guest-post.png"
       },
       {
         "icon": "Search",
         "title": "Link Building",
         "description": "Strengthen your website's authority with strategic link building campaigns that enhance visibility and search rankings.",
         "link": "/services/link-building",
-        "image": "/home/services/link-building.jpg"
+        "image": "/assets/home/services/link-building.jpg"
       }
     ]
   },
@@ -154,33 +154,33 @@
     "highlight": "We Make Your Vision Our Mission",
     "reasons": [
       {
-        "image": "/why-us/results-driven.png",
+        "image": "/assets/why-us/results-driven.png",
         "title": "Results-Driven",
         "description": "We turn strategies into results. Each campaign is fine-tuned to deliver actual performance metrics, maximizing ROI and driving meaningful business growth beyond superficial numbers."
       },
       {
-        "image": "/why-us/customized-campaigns.png",
+        "image": "/assets/why-us/customized-campaigns.png",
         "title": "Customized Campaigns",
         "description": "We design marketing strategies tailored to your business objectives, ensuring every campaign connects directly with your target audience and drives measurable results."
       },
       {
-        "image": "/why-us/innovative-techniques.png",
+        "image": "/assets/why-us/innovative-techniques.png",
         "title": "Innovative Techniques",
         "description": "We leverage the latest tools and emerging marketing strategies to keep your business ahead of the competition and deliver measurable results."
       },
       {
-        "image": "/why-us/experienced-team.png",
+        "image": "/assets/why-us/experienced-team.png",
         "title": "Experienced Team",
         "description": "Our team of experts combines years of digital marketing experience with creative insight and analytical precision to deliver campaigns that drive real results."
 
       },
       {
-        "image":  "/why-us/smart-strategies.png",
+        "image":  "/assets/why-us/smart-strategies.png",
         "title": "Smart Strategies",
         "description": "We use data-driven insights and proven frameworks to guide every campaign, ensuring your business grows efficiently and effectively."
       },
       {
-        "image": "/why-us/client-satisfaction.png",
+        "image": "/assets/why-us/client-satisfaction.png",
         "title": "Client Satisfaction",
         "description": "Our commitment to delivering measurable outcomes and open communication ensures high client satisfaction and enduring partnerships."
       }
