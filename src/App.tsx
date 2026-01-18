@@ -11,7 +11,6 @@ import ServicePage from "./pages/ServicePage";
 import AboutUs from "./pages/AboutUs";
 import Blogs from "./pages/Blogs";
 import BlogDetail from "./pages/BlogDetail";
-import styles from './globals.css'
 const queryClient = new QueryClient();
 
 const App = () => (
