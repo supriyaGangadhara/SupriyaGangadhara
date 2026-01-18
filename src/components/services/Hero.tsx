@@ -19,7 +19,7 @@ export const Hero = ({ title, tagline, contents, bgImg, cta }: HeroProps) => {
   return (
     <>
       <motion.section
-        className="relative min-h-screen flex items-center justify-center overflow-hidden px-4"
+        className="relative min-h-[calc(100vh-640px)] flex items-center justify-center overflow-hidden px-4"
         // initial="hidden"
         whileInView="visible"
         viewport={{ amount: 0.5 }}
