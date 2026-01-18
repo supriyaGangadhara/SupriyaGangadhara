@@ -42,7 +42,7 @@ const AboutUs = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-24 md:py-32 overflow-hidden">
+      <section className="relative py-10 md:py-10 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-purple-500/10" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="flex max-xl:flex-col items-center gap-6">
