@@ -13,6 +13,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
+import useSEO from "@/hooks/use-seo";
 
 const BlogDetail = () => {
   const { blogId } = useParams();
@@ -22,6 +23,23 @@ const BlogDetail = () => {
     return blogsData.blogs.find((b) => b.id === blogId);
   }, [blogId]);
 
+  const getCategoryName = (categoryId: string) => {
+    const category = blogsData.categories.find((c) => c.id === categoryId);
+    return category?.name || categoryId;
+  };
+
+  // SEO for blog detail page
+  useSEO({
+    title: blog ? `${blog.title} | Supriya Growth Hub Blog` : "Blog Not Found | Supriya Growth Hub",
+    description: blog?.excerpt || "Read our latest digital marketing insights and tips.",
+    canonical: `/blog/${blogId}`,
+    ogType: "article",
+    ogImage: blog?.image ? `https://supriyagrowthhub.com${blog.image}` : undefined,
+    author: blog?.author || "Supriya Growth Hub",
+    keywords: blog ? `${getCategoryName(blog?.category)}, digital marketing, ${blog.title}` : "digital marketing blog",
+  });
+
+
   const relatedBlogs = useMemo(() => {
     if (!blog) return [];
     return blogsData.blogs
@@ -29,10 +47,7 @@ const BlogDetail = () => {
       .slice(0, 3);
   }, [blog]);
 
-  const getCategoryName = (categoryId: string) => {
-    const category = blogsData.categories.find((c) => c.id === categoryId);
-    return category?.name || categoryId;
-  };
+
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -80,9 +95,9 @@ const BlogDetail = () => {
           </li>
         );
       }
-      if (line.trim() === "") {
-        return <br key={index} />;
-      }
+      // if (line.trim() === "") {
+      //   return <br key={index} />;
+      // }
       return (
         <p key={index} className="text-muted-foreground leading-relaxed mb-4">
           {line}

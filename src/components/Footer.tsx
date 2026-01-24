@@ -34,11 +34,12 @@ const Footer = () => {
   ];
 
   const quickLinks = [
-    { name: 'About', path: '/#about' },
-    { name: 'Services', path: '/#services' },
-    { name: 'Blogs', path: '/#blogs' },
-    { name: 'FAQ', path: '/#faq' },
+    { name: 'About', path: '/about' },
+    { name: 'Services', path: '/services' },
+    { name: 'Blogs', path: '/blogs' },
+    { name: 'FAQ', path: '/faq' },
     { name: 'Contact', path: '/#contact' },
+    { name: 'Sitemap', path: '/sitemap' },
   ];
 
   return (

@@ -12,8 +12,16 @@ import Blogs from "@/components/sections/Blogs";
 import FAQ from "@/components/sections/FAQ";
 import Contact from "@/components/sections/Contact";
 import json from '@/jsons/home.json';
+import useSEO from "@/hooks/use-seo";
 
 const Index = () => {
+
+  useSEO({
+    title: "Supriya Growth Hub | Results-Driven Digital Marketing Services",
+    description: "Transform your business with creative and results-driven digital marketing strategies. Expert SEO, SEM, SMM, content marketing, and personal branding services customized to your goals.",
+    canonical: "",
+    keywords: "digital marketing, SEO services, SEM, social media marketing, content marketing, personal branding, India",
+  });
   
   useEffect(() => {
     if(typeof window !== "undefined"){

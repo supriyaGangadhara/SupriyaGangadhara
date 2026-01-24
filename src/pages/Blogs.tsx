@@ -6,8 +6,17 @@ import * as Icons from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navigation from "@/components/Navigation";
 import blogsData from "@/jsons/blogs.json";
+import useSEO from "@/hooks/use-seo";
 
 const Blogs = () => {
+
+  useSEO({
+    title: "Digital Marketing Blog | Supriya Growth Hub",
+    description: "Explore our digital marketing blog for expert insights on SEO, SEM, social media marketing, content strategy, and more. Stay updated with the latest trends.",
+    canonical: "/blogs",
+    keywords: "digital marketing blog, SEO tips, marketing insights, content marketing, social media tips",
+  });
+  
   const [activeCategory, setActiveCategory] = useState<string>("all");
 
   const filteredBlogs = useMemo(() => {
