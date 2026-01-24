@@ -18,6 +18,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import aboutData from "@/jsons/about-us.json";
+import { useSEO } from "@/hooks/use-seo";
 
 const iconMap: Record<string, any> = {
   Search,
@@ -38,6 +39,12 @@ const iconMap: Record<string, any> = {
 
 const AboutUs = () => {
   const { hero, whoWeAre, whatWeDo, ourApproach, whyChooseUs, missionVision, cta } = aboutData;
+  useSEO({
+    title: "About Us | Supriya Growth - Digital Marketing Agency",
+    description: "Learn about Supriya Growth, a results-driven digital marketing agency helping businesses grow through SEO, SEM, content marketing, and social media strategies.",
+    canonical: "/about-us",
+    keywords: "about us, digital marketing agency, Supriya Growth, marketing team, India",
+  });
 
   return (
     <div className="min-h-screen">
