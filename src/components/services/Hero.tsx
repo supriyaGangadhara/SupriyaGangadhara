@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 interface HeroProps {
   title: string;
   tagline: string;
-  contents: any[];
+  contents: string[];
   bgImg?: string;
   cta?: string;
 }
 
 export const Hero = ({ title, tagline, contents, bgImg, cta }: HeroProps) => {
-  const containerVariants: any = {
+  const containerVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
   };

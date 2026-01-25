@@ -10,7 +10,20 @@ import {
 import { motion } from "framer-motion";
 import testimonialIcon from '/assets/testimonial-icon.webp'
 
-const Testimonials = (props: any) => {
+interface Testimonial {
+  rating: number;
+  content: string;
+  name: string;
+  role: string;
+}
+
+interface TestimonialsProps {
+  title?: string;
+  description?: string;
+  cards?: Testimonial[];
+}
+
+const Testimonials = (props: TestimonialsProps) => {
   return (
     <section className="py-20">
       <div className="container mx-auto max-md:px-4">
@@ -33,7 +46,7 @@ const Testimonials = (props: any) => {
           {props?.cards && props?.cards.length > 0 && (
             <Carousel className="w-full max-w-4xl mx-auto">
               <CarouselContent>
-                {props?.cards.map((testimonial: any, index: number) => (
+                {props?.cards?.map((testimonial: Testimonial, index: number) => (
                   <CarouselItem key={index} className="md:basis-1/2">
                     <motion.div
                       initial={{ opacity: 0, y: 30 }}

@@ -5,7 +5,7 @@ import { Mail, Video, Share2, BarChart3, Smartphone, Star, PenTool, LinkIcon, St
 import { motion } from "framer-motion";
 
 interface Service {
-  id: any;
+  id: string | number;
   title: string;
   icon: string;
   description?: string;
@@ -69,7 +69,7 @@ const iconMap: Record<string, string | React.ElementType> = {
   'map-pin': MapPin
 };
 
-const containerVariants:any = {
+const containerVariants = {
   hidden: { opacity: 0, y: 20 },
   show: {
     opacity: 1,
@@ -81,7 +81,7 @@ const containerVariants:any = {
   },
 };
 
-const itemVariants:any = {
+const itemVariants = {
   hidden: { opacity: 0, y: 20 },
   show: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
 };

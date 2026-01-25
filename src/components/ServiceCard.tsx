@@ -4,7 +4,7 @@ import { ArrowRight, LucideIcon, Search, BarChart, FileText, Share2, MapPin, Mai
 import { Link } from "react-router-dom";
 
 interface ServiceCardProps {
-  icon: any;
+  icon: keyof typeof iconMap;
   title: string;
   description: string;
   link: string;

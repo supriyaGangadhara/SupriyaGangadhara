@@ -2,7 +2,15 @@ import { Mail, Phone } from "lucide-react";
 import { motion } from "framer-motion";
 import ContactForm from "../ContactForm";
 
-const Contact = (props: any) => {
+interface ContactProps {
+  title?: string;
+  sub_title?: string;
+  description?: string;
+  email?: string;
+  phone?: string;
+}
+
+const Contact = (props: ContactProps) => {
   
 
   return (

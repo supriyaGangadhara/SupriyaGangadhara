@@ -1,7 +1,21 @@
 import { motion } from "framer-motion";
 import ServiceCard from "@/components/ServiceCard";
 
-const Services = (props: any) => {
+interface Service {
+  icon: string;
+  title: string;
+  description: string;
+  link: string;
+  image?: string;
+}
+
+interface ServicesProps {
+  title?: string;
+  description?: string;
+  services?: Service[];
+}
+
+const Services = (props: ServicesProps) => {
   return (
     <section id="services" className="py-20">
       <div className="container mx-auto max-md:px-4">
@@ -21,7 +35,7 @@ const Services = (props: any) => {
 
           {/* Service Cards */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-            {props?.services.map((service, index) => (
+            {props?.services?.map((service, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 50, scale: 0.95 }}

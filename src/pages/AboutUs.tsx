@@ -20,7 +20,7 @@ import { Link } from "react-router-dom";
 import aboutData from "@/jsons/about-us.json";
 import { useSEO } from "@/hooks/use-seo";
 
-const iconMap: Record<string, any> = {
+const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Search,
   Share2,
   MousePointer,
