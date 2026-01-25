@@ -60,7 +60,6 @@ jobs:
             echo "No test script found. Skipping tests."
             echo "Add a test script to package.json to enable testing."
           fi
-        continue-on-error: true
 
   lint:
     name: Lint
@@ -81,3 +80,25 @@ jobs:
       
       - name: Run linter
         run: npm run lint -- --max-warnings=0
+
+  # Final status check - all jobs must pass
+  ci-success:
+    name: CI Status Check
+    runs-on: ubuntu-latest
+    needs: [build, test, lint]
+    if: always()
+    
+    steps:
+      - name: Check all jobs status
+        run: |
+          if [ "${{ needs.build.result }}" != "success" ] || \
+             [ "${{ needs.test.result }}" != "success" ] || \
+             [ "${{ needs.lint.result }}" != "success" ]; then
+            echo "❌ One or more CI jobs failed!"
+            echo "Build: ${{ needs.build.result }}"
+            echo "Test: ${{ needs.test.result }}"
+            echo "Lint: ${{ needs.lint.result }}"
+            exit 1
+          else
+            echo "✅ All CI checks passed!"
+          fi
