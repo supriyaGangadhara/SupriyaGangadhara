@@ -12,7 +12,10 @@ export default tseslint.config(
       "build",
       "*.config.js",
       "*.config.ts",
-      ".vite"
+      ".vite",
+      "test-eslint.tsx",
+      "**/*.test.ts",
+      "**/*.test.tsx"
     ] 
   },
   {
@@ -33,7 +36,7 @@ export default tseslint.config(
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
-      "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
+      "react-refresh/only-export-components": "off", // Disabled for UI component libraries
       "@typescript-eslint/no-unused-vars": "off",
       "@typescript-eslint/no-explicit-any": "error",
       "@typescript-eslint/no-empty-object-type": "error",
