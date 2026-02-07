@@ -2,7 +2,21 @@ import { Calendar, User, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
-const Blogs = (props: any) => {
+interface BlogCard {
+  category: string;
+  date: string;
+  author: string;
+  title: string;
+  excerpt: string;
+}
+
+interface BlogsProps {
+  title?: string;
+  description?: string;
+  cards?: BlogCard[];
+}
+
+const Blogs = (props: BlogsProps) => {
   return (
     <section id="blogs" className="py-20 bg-gradient-to-b from-background to-muted/20">
       <div className="container mx-auto max-md:px-4">
@@ -29,7 +43,7 @@ const Blogs = (props: any) => {
 
           {/* Blog Cards */}
           <div className="space-y-8">
-            {props?.cards.map((blog: any, index: number) => (
+            {props?.cards?.map((blog: BlogCard, index: number) => (
               <motion.div
                 key={index}
                 className="group relative p-8 bg-background/50 backdrop-blur-sm border border-border rounded-2xl hover:shadow-elegant transition-all duration-300 hover:-translate-y-1"

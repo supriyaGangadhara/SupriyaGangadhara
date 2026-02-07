@@ -6,7 +6,18 @@ import {
 } from "@/components/ui/accordion";
 import { motion } from "framer-motion";
 
-const FAQ = (props: any) => {
+interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+interface FAQProps {
+  title?: string;
+  description?: string;
+  items?: FAQItem[];
+}
+
+const FAQ = (props: FAQProps) => {
   return (
     <section className="py-20 bg-muted/20">
       <div className="container mx-auto max-md:px-4">
@@ -24,7 +35,7 @@ const FAQ = (props: any) => {
 
           {/* Accordion Items */}
           <Accordion type="single" collapsible className="space-y-4">
-            {props?.items.map((faq: any, index: number) => (
+            {props?.items?.map((faq: FAQItem, index: number) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 30 }}

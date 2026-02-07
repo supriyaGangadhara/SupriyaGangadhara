@@ -11,7 +11,19 @@ const iconMap = {
   Award,
 };
 
-const Skills = (props: any) => {
+interface Skill {
+  icon: keyof typeof iconMap;
+  name: string;
+  level: number;
+}
+
+interface SkillsProps {
+  title?: string;
+  description?: string;
+  skills?: Skill[];
+}
+
+const Skills = (props: SkillsProps) => {
   return (
     <section id="skills" className="py-20">
       <div className="container mx-auto max-md:px-4">
@@ -29,7 +41,7 @@ const Skills = (props: any) => {
 
           {/* Skills Grid */}
           <div className="grid md:grid-cols-2 gap-8">
-            {props?.skills.map((skill: any, index: number) => {
+            {props?.skills?.map((skill: Skill, index: number) => {
               const Icon = iconMap[skill.icon];
               return (
                 <motion.div

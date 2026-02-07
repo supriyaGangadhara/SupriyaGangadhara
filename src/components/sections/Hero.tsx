@@ -1,14 +1,28 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { motion } from "framer-motion";
 
 const iconMap = {
   ArrowRight,
 };
 
-const Hero = (props: any) => {
-  const words = ["SEO", "SMM", "SEM", "PPC"];
+interface Button {
+  label: string;
+  href: string;
+  variant: string;
+  icon?: string;
+}
+
+interface HeroProps {
+  title?: string;
+  subheading?: string;
+  description?: string;
+  buttons?: Button[];
+}
+
+const Hero = (props: HeroProps) => {
+  const words = useMemo(() => ["SEO", "SMM", "SEM", "PPC"], []);
 
   const [text, setText] = useState("");
   const [wordIndex, setWordIndex] = useState(0);
@@ -42,7 +56,7 @@ const Hero = (props: any) => {
     }
 
     return () => clearTimeout(timer);
-  }, [text, isDeleting, wordIndex]);
+  }, [text, isDeleting, wordIndex, words]);
 
   return (
     <section className="xl:pt-32 xl:pb-20 py-10 gradient-hero relative overflow-hidden">
@@ -89,7 +103,7 @@ const Hero = (props: any) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.9 }}
           >
-            {props?.buttons?.map((btn: any, index: number) => {
+            {props?.buttons?.map((btn: Button, index: number) => {
               const Icon = btn.icon ? iconMap[btn.icon] : null;
               return (
                 <Button key={index} variant={btn.variant} size="lg" asChild>

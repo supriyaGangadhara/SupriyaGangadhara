@@ -1,6 +1,19 @@
 import { motion } from "framer-motion";
 
-const WhyUs = (props: any) => {
+interface Reason {
+  image: string;
+  title: string;
+  description: string;
+}
+
+interface WhyUsProps {
+  title?: string;
+  subtitle?: string;
+  highlight?: string;
+  reasons?: Reason[];
+}
+
+const WhyUs = (props: WhyUsProps) => {
   return (
     <section className="py-24 bg-gradient-to-b from-background to-muted/30">
       <div className="container mx-auto max-md:px-4">
@@ -17,7 +30,7 @@ const WhyUs = (props: any) => {
 
         {/* Content */}
         <div className="space-y-20 md:px-12">
-          {props?.reasons.map((reason: any, index: number) => (
+          {props?.reasons?.map((reason: Reason, index: number) => (
             <motion.div
               key={index}
               className={`flex flex-col md:flex-row items-center gap-10 ${

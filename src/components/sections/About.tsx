@@ -8,7 +8,19 @@ const iconMap = {
   Award,
 };
 
-const About = (props: any) => {
+interface Achievement {
+  icon: keyof typeof iconMap;
+  value: string;
+  label: string;
+}
+
+interface AboutProps {
+  title?: string;
+  paragraphs?: string[];
+  achievements?: Achievement[];
+}
+
+const About = (props: AboutProps) => {
 
   return (
     <section id="about" className="py-20 bg-card">

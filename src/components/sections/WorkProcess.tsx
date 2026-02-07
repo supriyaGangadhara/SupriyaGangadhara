@@ -2,7 +2,7 @@ import { Lightbulb, Rocket, Eye, BarChart3, TrendingUp } from "lucide-react";
 import strategyIllustration from "/assets/strategy-illustration.jpg";
 import { motion } from "framer-motion";
 
-const icons: Record<string, any> = {
+const icons: Record<string, React.ComponentType<{ className?: string }>> = {
   Lightbulb,
   Rocket,
   Eye,
@@ -10,7 +10,20 @@ const icons: Record<string, any> = {
   TrendingUp,
 };
 
-const WorkProcess = (props: any) => {
+interface Step {
+  icon: keyof typeof icons;
+  title: string;
+  description: string;
+  number: string;
+}
+
+interface WorkProcessProps {
+  title?: string;
+  sub_title?: string;
+  steps?: Step[];
+}
+
+const WorkProcess = (props: WorkProcessProps) => {
   return (
     <section className="relative py-24 bg-gradient-to-b from-background via-card/30 to-background overflow-hidden">
       {/* Decorative background */}

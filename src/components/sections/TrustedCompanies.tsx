@@ -1,4 +1,15 @@
-const TrustedCompanies = (props:any) => {
+interface Company {
+  logo: string;
+  name: string;
+}
+
+interface TrustedCompaniesProps {
+  title?: string;
+  companies?: Company[];
+}
+
+const TrustedCompanies = (props: TrustedCompaniesProps) => {
+  const companies = props?.companies ?? [];
 
   return (
     <section className="py-12 bg-muted/30 border-y border-border overflow-hidden">
@@ -10,7 +21,7 @@ const TrustedCompanies = (props:any) => {
 
       <div className="relative">
         <div className="flex animate-scroll items-center">
-          {[...props?.companies, ...props?.companies, ...props?.companies].map((company, index) => (
+          {[...companies, ...companies, ...companies].map((company, index) => (
             <div
               key={index}
               className="flex-shrink-0 mx-8 p-4 flex items-center justify-center bg-white rounded-lg"
