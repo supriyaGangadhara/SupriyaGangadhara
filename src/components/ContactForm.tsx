@@ -5,8 +5,16 @@ import { useContactForm } from "@/hooks/use-contact-form";
 import { motion } from "framer-motion";
 import { Send, Sparkles } from "lucide-react";
 
+type ContactFormProps = {
+    isModal?: boolean;
+    onSuccess?: () => void;
+    styles?: {
+      form?: string;
+    };
+  };
+  
 
-const ContactForm = (props: any) => {
+const ContactForm = (props: ContactFormProps) => {
     const { formRef, isSending, handleSubmit, visitorInfo } = useContactForm({onSuccess: props?.isModal ? props?.onSuccess : undefined,});
     return (
         <motion.form
