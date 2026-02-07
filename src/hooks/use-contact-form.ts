@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import { useToast } from "@/hooks/use-toast";
 import { useVisitorInfo } from "@/hooks/use-visitor-info";
 
-export const useContactForm = (props:any) => {
+export const useContactForm = ({onSuccess}:any) => {
   const formRef = useRef<HTMLFormElement>(null);
   const [isSending, setIsSending] = useState(false);
   const { toast } = useToast();
@@ -28,7 +28,7 @@ export const useContactForm = (props:any) => {
           description: "Your message has been sent successfully.",
         });
         formRef.current?.reset();
-        props?.onSuccess?.();
+        onSuccess?.();
       })
       .catch(() => {
         toast({

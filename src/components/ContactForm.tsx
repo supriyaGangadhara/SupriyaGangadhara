@@ -7,7 +7,7 @@ import { Send, Sparkles } from "lucide-react";
 
 
 const ContactForm = (props: any) => {
-    const { formRef, isSending, handleSubmit, visitorInfo } = useContactForm(props?.isModal ? props?.onSuccess : null);
+    const { formRef, isSending, handleSubmit, visitorInfo } = useContactForm({onSuccess: props?.isModal ? props?.onSuccess : undefined,});
     return (
         <motion.form
             ref={formRef}
