@@ -2,12 +2,12 @@ import { FormEvent, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { useToast } from "@/hooks/use-toast";
 import { useVisitorInfo } from "@/hooks/use-visitor-info";
-
-interface UseContactFormProps {
+type UseContactFormProps = {
   onSuccess?: () => void;
-}
+};
 
-export const useContactForm = (props?: UseContactFormProps) => {
+
+export const useContactForm = (props:UseContactFormProps) => {
   const formRef = useRef<HTMLFormElement>(null);
   const [isSending, setIsSending] = useState(false);
   const { toast } = useToast();
