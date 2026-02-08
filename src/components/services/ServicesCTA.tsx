@@ -42,7 +42,8 @@ export const ServicesCTA = ({ title, description, primaryButton }: ServicesCTAPr
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button onClick={() => setIsModalOpen(true)} size="lg" className="group bg-primary hover:bg-primary/90 text-primary-foreground shadow-[var(--shadow-glow)]">
                 {/* <a href="https://calendly.com/supriya99722" target="_blank"> */}
-                {primaryButton}
+                {/* {primaryButton} */}
+                Get your free consultation
                 {/* </a> */}
 
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />

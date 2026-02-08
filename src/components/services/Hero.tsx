@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 interface HeroProps {
   title: string;
@@ -44,10 +45,12 @@ export const Hero = ({ title, tagline, contents, bgImg, cta }: HeroProps) => {
                 </motion.p>
               ))}
               <motion.div variants={containerVariants} className="pt-4">
+                  <Link  to={"/coming-soon"}>
                 <Button size="lg" className="group bg-primary hover:bg-primary/90 text-primary-foreground shadow-[var(--shadow-glow)]">
-                  {cta}
+                    {cta}
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Button>
+                  </Link>
                 {/* <Button size="lg" variant="outline" className="border-primary/50 hover:bg-primary/10">
               Learn More
             </Button> */}

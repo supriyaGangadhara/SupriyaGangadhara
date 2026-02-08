@@ -12,6 +12,7 @@ import AboutUs from "./pages/AboutUs";
 import Blogs from "./pages/Blogs";
 import BlogDetail from "./pages/BlogDetail";
 import Sitemap from "./pages/Sitemap";
+import ComingSoon from "./pages/ComingSoon";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -27,9 +28,11 @@ const App = () => (
               <Route path="/about-us" element={<AboutUs />} />
               <Route path="/blogs" element={<Blogs />} />
               <Route path="/sitemap" element={<Sitemap />} />
+              <Route path="/coming-soon" element={<ComingSoon />} />
               <Route path="/blog/:blogId" element={<BlogDetail />} />
               {/* Dynamic route for all service pages */}
               <Route path="/services/:serviceId" element={<ServicePage />} />
+              
               {/* <Route path="*" element={<NotFound />} /> */}
             </Route>            
           </Routes>
