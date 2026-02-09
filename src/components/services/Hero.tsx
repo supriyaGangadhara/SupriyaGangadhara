@@ -30,7 +30,7 @@ export const Hero = ({ title, tagline, contents, bgImg, cta }: HeroProps) => {
         <div className="absolute inset-0 bg-[image:var(--gradient-hero)]" />
         <div className="absolute inset-0 bg-gradient-radial from-primary/20 via-transparent to-transparent" />
 
-        <div className="flex max-xl:flex-col items-center gap-4 container mx-auto">
+        <div className="flex max-xl:flex-col xl:justify-between items-center gap-4 container mx-auto">
           <div className=" grid items-center max-xl:text-center relative z-10 py-10 xl:py-20">
             <div className="space-y-8 max-w-5xl mx-auto">
               <motion.h1
@@ -58,7 +58,7 @@ export const Hero = ({ title, tagline, contents, bgImg, cta }: HeroProps) => {
             </div>
           </div>
 
-          <figure className="z-10">
+          <figure className="z-10 pb-10 xl:py-10">
             <img src={bgImg} className="rounded-lg" />
           </figure>
         </div>
