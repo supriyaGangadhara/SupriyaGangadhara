@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Layout = () => {
     return (
@@ -10,6 +11,7 @@ const Layout = () => {
                 <Outlet /> {/* Renders the current route page */}
             </main>
             <Footer />
+            <WhatsAppButton />
         </div>
     );
 };
