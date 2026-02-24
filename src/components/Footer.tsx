@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { Facebook, Twitter, Linkedin, Instagram, Mail } from 'lucide-react';
+import { Facebook, Linkedin, Instagram, Mail, Youtube } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const Footer = () => {
@@ -53,16 +53,16 @@ const Footer = () => {
               Elevating brands through strategic digital marketing solutions. Your growth is our mission.
             </p>
             <div className="flex space-x-4">
-              <a href="https://www.linkedin.com/in/kandrasupriya/" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61588478968684" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="https://www.linkedin.com/in/kandrasupriya/" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
-                <Twitter className="w-5 h-5" />
+              <a href="https://www.youtube.com/@Supriyagangadhara1" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
+                <Youtube className="w-5 h-5" />
               </a>
-              <a href="https://www.linkedin.com/in/kandrasupriya/" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.linkedin.com/company/supriyagangadhara/" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="https://www.instagram.com/techbysupriya/" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.instagram.com/supriyagangadhara.official/" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
             </div>
