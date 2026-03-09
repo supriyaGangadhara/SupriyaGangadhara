@@ -14,7 +14,7 @@ interface SEOProps {
 
 const BASE_URL = "https://supriyagangadhara.com";
 const DEFAULT_OG_IMAGE = `${BASE_URL}/logo/v2.svg`;
-const DEFAULT_AUTHOR = "Supriya Growth Hub";
+const DEFAULT_AUTHOR = "Supriyagangadhara";
 
 export const useSEO = ({
   title,
@@ -93,7 +93,7 @@ export const useSEO = ({
     updateMetaTag("og:type", ogType, true);
     updateMetaTag("og:image", ogImage, true);
     updateMetaTag("og:url", (BASE_URL + canonical) || BASE_URL, true);
-    updateMetaTag("og:site_name", "Supriya Growth Hub", true);
+    updateMetaTag("og:site_name", "Supriyagangadhara", true);
 
     // Twitter Card tags
     updateMetaTag("twitter:card", "summary_large_image");

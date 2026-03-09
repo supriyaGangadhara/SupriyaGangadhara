@@ -47,7 +47,7 @@ export const WhyChooseUs = ({ title, items }: WhyChooseUsProps) => {
           <h2 className="text-4xl xl:text-5xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
             {title}
           </h2>
-          <div className="h-1 w-24 bg-gradient-to-r from-accent to-primary mx-auto rounded-full" />
+          {/* <div className="h-1 w-24 bg-gradient-to-r from-accent to-primary mx-auto rounded-full" /> */}
         </div>
 
         <motion.div

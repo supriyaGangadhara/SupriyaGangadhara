@@ -19,7 +19,7 @@ interface FAQProps {
 
 const FAQ = (props: FAQProps) => {
   return (
-    <section className="py-20 bg-muted/20">
+    <section className="py-20">
       <div className="container mx-auto max-md:px-4">
         <div className="max-w-4xl mx-auto">
           {/* Header */}

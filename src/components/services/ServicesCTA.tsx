@@ -22,8 +22,8 @@ export const ServicesCTA = ({ title, description, primaryButton }: ServicesCTAPr
 
     <>
       <section className="py-24 px-4 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-background to-accent/20" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent" />
+        {/* <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-background to-accent/20" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent" /> */}
 
         <motion.div
           className="container mx-auto relative z-10"

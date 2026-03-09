@@ -11,7 +11,7 @@ import useSEO from "@/hooks/use-seo";
 const Blogs = () => {
 
   useSEO({
-    title: "Digital Marketing Blog | Supriya Growth Hub",
+    title: "Digital Marketing Blog | Supriyagangadhara",
     description: "Explore our digital marketing blog for expert insights on SEO, SEM, social media marketing, content strategy, and more. Stay updated with the latest trends.",
     canonical: "/blogs",
     keywords: "digital marketing blog, SEO tips, marketing insights, content marketing, social media tips",
@@ -35,11 +35,11 @@ const Blogs = () => {
   };
 
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen">
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 bg-gradient-to-b from-primary/5 to-background">
+      <section className="pt-32 pb-16">
         <div className="container mx-auto px-4">
           <motion.div
             className="text-center max-w-3xl mx-auto"

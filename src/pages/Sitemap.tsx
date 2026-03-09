@@ -57,7 +57,7 @@ const Sitemap = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-primary/5 to-background">
+      <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

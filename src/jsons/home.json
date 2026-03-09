@@ -2,7 +2,6 @@
   "hero": {
     "title": "Grow Your Business with Strategic Digital Marketing Services",
     "subheading": "We help businesses attract, engage, and convert their ideal customers through data-driven digital marketing strategies tailored to specific business goals. As a results-focused digital marketing agency, we combine creativity, performance marketing, and analytics to deliver scalable growth across digital channels.",
-    "description": "We are a leading digital marketing company powered by a team of experienced marketers and strategists who specialize in building strong online visibility and driving high-quality engagement. Through integrated online marketing services such as SEO, content marketing, social media marketing, and performance-driven campaigns, we focus on delivering measurable results that fuel long-term business growth.",
     "buttons": [
       {
         "label": "book a free consultation",
@@ -17,9 +16,7 @@
     "title": "About Us",
     "paragraphs": [
       "Where creativity meets strategy, we transform businesses into powerful digital brands. As a results-driven digital marketing agency, we go beyond traditional marketing to become a true growth partner for businesses looking to scale in today’s competitive digital scenario. We don’t believe in one-size-fits-all solutions, every brand deserves a strategy built around its unique goals, audience, and market.",
-      "Our mission is simple: to craft customized, innovative digital marketing solutions that help brands stand out, connect meaningfully with their audience, and achieve long-term impact. By combining creative storytelling with data-driven digital marketing strategies, we deliver campaigns that not only look good but perform exceptionally well. From increasing brand visibility to improving customer engagement and driving conversions, our focus is always on measurable results.",
-      "As one of the leading digital marketing services providers, our agency is powered by a passionate team of strategists, creative thinkers, and digital specialists who thrive on challenges. We specialize in a wide range of online marketing services, including SEO, content marketing, social media marketing, performance marketing, and conversion optimization. Every strategy we build is backed by insights, analytics, and continuous optimization.",
-      "Whether your goal is to strengthen your brand’s online presence, generate high-quality leads, or maximize ROI, we align our expertise with your business objectives. As a trusted digital marketing company, we take pride in turning ideas into impactful digital experiences making your goals our goals, and your growth our success."
+      "Our mission is simple: to craft customized, innovative digital marketing solutions that help brands stand out, connect meaningfully with their audience, and achieve long-term impact. By combining creative storytelling with data-driven digital marketing strategies, we deliver campaigns that not only look good but perform exceptionally well. From increasing brand visibility to improving customer engagement and driving conversions, our focus is always on measurable results."
     ],
 
     "achievements": [
@@ -76,6 +73,50 @@
       {
         "name": "Web Engage",
         "logo": "/assets/company-logo/web-engage.svg"
+      },
+      {
+        "name":"Atom Interiors",
+        "logo":"/assets/company-logo/atom-interiors.png"
+      },
+      {
+        "name":"Bangalore School of Design and technology",
+        "logo":"/assets/company-logo/bangalore-school.png"
+      },
+      {
+        "name":"Chemstock for Chemicals",
+        "logo":"/assets/company-logo/chemstock.png"
+      },
+      {
+        "name":"Coach Coegi",
+        "logo":"/assets/company-logo/coach-coegi.png"
+      },
+      {
+        "name":"Elders Wealth",
+        "logo":"/assets/company-logo/elders-wealth.png"
+      },
+      {
+        "name":"First Meridian",
+        "logo":"/assets/company-logo/first-meridian.png"
+      },
+      {
+        "name":"JD Institute of Fashion Technology",
+        "logo":"/assets/company-logo/jd-institute-of-fashion-technology.png"
+      },
+      {
+        "name":"Mediquest Inc",
+        "logo":"/assets/company-logo/mediquest.png"
+      },
+      {
+        "name":"Samyakk",
+        "logo":"/assets/company-logo/samyakk.png"
+      },
+      {
+        "name":"Takeleap",
+        "logo":"/assets/company-logo/takeleap.png"
+      },
+      {
+        "name":"Unicare Services",
+        "logo":"/assets/company-logo/unicare-services.png"
       }
     ]
   },

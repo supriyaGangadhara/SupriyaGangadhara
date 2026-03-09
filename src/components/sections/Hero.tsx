@@ -59,10 +59,10 @@ const Hero = (props: HeroProps) => {
   }, [text, isDeleting, wordIndex, words]);
 
   return (
-    <section className="xl:pt-32 xl:pb-20 py-10 gradient-hero relative overflow-hidden">
+    <section className="xl:pt-32 xl:pb-20 py-10 relative overflow-hidden">
       {/* Hero Content */}
       <div className="container mx-auto relative z-10 max-md:px-4">
-        <div className="max-w-5xl mx-auto text-center">
+        <div className="max-w-6xl mx-auto text-center">
           {/* Title */}
           <motion.h1
             className="text-5xl xl:text-7xl mb-6 leading-tight font-bold"
@@ -98,7 +98,7 @@ const Hero = (props: HeroProps) => {
 
           {/* Buttons */}
           <motion.div
-            className="flex flex-col sm:flex-row gap-4 justify-center"
+            className="flex flex-col sm:flex-row gap-4 justify-center xl:mt-12 md:mt-8 mt-6"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.9 }}

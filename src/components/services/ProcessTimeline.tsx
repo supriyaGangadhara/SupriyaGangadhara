@@ -29,7 +29,7 @@ const itemVariants = {
 export const ProcessTimeline = ({ title, steps }: ProcessTimelineProps) => {
   return (
     <section className="py-24 px-4 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-accent/5" />
+      {/* <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-accent/5" /> */}
       
       <div className="container mx-auto relative z-10">
         <div className="text-center mb-16 space-y-4">
