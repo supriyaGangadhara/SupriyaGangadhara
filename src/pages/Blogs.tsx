@@ -11,10 +11,10 @@ import useSEO from "@/hooks/use-seo";
 const Blogs = () => {
 
   useSEO({
-    title: "Digital Marketing Blog | Supriyagangadhara",
-    description: "Explore our digital marketing blog for expert insights on SEO, SEM, social media marketing, content strategy, and more. Stay updated with the latest trends.",
+    title: blogsData?.seo?.title ?? "Digital Marketing Blog | Supriyagangadhara",
+    description: blogsData?.seo?.description ?? "Explore our digital marketing blog for expert insights on SEO, SEM, social media marketing, content strategy, and more. Stay updated with the latest trends.",
     canonical: "/blogs",
-    keywords: "digital marketing blog, SEO tips, marketing insights, content marketing, social media tips",
+    keywords: blogsData?.seo?.keywords ?? "digital marketing blog, SEO tips, marketing insights, content marketing, social media tips",
   });
   
   const [activeCategory, setActiveCategory] = useState<string>("all");

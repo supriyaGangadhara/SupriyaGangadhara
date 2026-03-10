@@ -51,10 +51,10 @@ const ServicePage = () => {
   };
 
   useSEO({
-    title: seoTitle,
-    description: seoDescription,
+    title: data?.seo?.title,
+    description: data?.seo?.description,
     canonical: `/${serviceId}`,
-    keywords: `${formatServiceName(serviceId || '')}, digital marketing, ${serviceId}, marketing services, India`,
+    keywords: data?.seo?.keywords,
     ogImage: data?.hero?.bg ? `https://supriyagrowth.com${data.hero.bg}` : undefined,
   });
 

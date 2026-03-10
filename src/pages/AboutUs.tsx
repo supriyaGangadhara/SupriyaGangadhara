@@ -38,12 +38,12 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 };
 
 const AboutUs = () => {
-  const { hero, whoWeAre, whatWeDo, ourApproach, whyChooseUs, missionVision, cta } = aboutData;
+  const { hero, whoWeAre, whatWeDo, ourApproach, whyChooseUs, missionVision, cta,seo } = aboutData;
   useSEO({
-    title: "About Us | Supriya Growth - Digital Marketing Agency",
-    description: "Learn about Supriya Growth, a results-driven digital marketing agency helping businesses grow through SEO, SEM, content marketing, and social media strategies.",
+    title: seo?.title ?? "About Us | Supriya Growth - Digital Marketing Agency",
+    description: seo?.description ?? "Learn about Supriya Growth, a results-driven digital marketing agency helping businesses grow through SEO, SEM, content marketing, and social media strategies.",
     canonical: "/about-us",
-    keywords: "about us, digital marketing agency, Supriya Growth, marketing team, India",
+    keywords: seo?.keywords ?? "about us, digital marketing agency, Supriya Growth, marketing team, India",
   });
 
   return (
