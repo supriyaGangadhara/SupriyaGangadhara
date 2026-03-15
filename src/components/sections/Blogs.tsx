@@ -18,7 +18,7 @@ interface BlogsProps {
 
 const Blogs = (props: BlogsProps) => {
   return (
-    <section id="blogs" className="py-20 bg-gradient-to-b from-background to-muted/20">
+    <section id="blogs" className="py-20">
       <div className="container mx-auto max-md:px-4">
         <div className="max-w-6xl mx-auto">
           {/* Header */}

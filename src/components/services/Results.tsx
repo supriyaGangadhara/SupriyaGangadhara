@@ -40,7 +40,7 @@ const itemVariants = {
 
 export const Results = ({ title, metrics }: ResultsProps) => {
   return (
-    <section className="py-24 px-4 relative bg-gradient-to-b from-background to-secondary/20">
+    <section className="py-24 px-4 relative">
       <div className="container mx-auto">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl xl:text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">

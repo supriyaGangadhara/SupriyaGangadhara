@@ -1,8 +1,12 @@
 {
+  "seo":{
+    "title": "Digital Marketing Services That Actually Drive Real Results",
+    "description": "Top digital marketing agency offering SEO, SEM, SMM, content marketing & personal branding. Data-driven strategies to boost your online visibility & ROI.",
+    "keywords": "Digital Marketing Services, SEO, Social Media Marketing, PPC"
+  },
   "hero": {
     "title": "Grow Your Business with Strategic Digital Marketing Services",
-    "subheading": "We help businesses attract, engage, and convert their ideal customers through data-driven digital marketing strategies tailored to specific business goals. As a results-focused digital marketing agency, we combine creativity, performance marketing, and analytics to deliver scalable growth across digital channels.",
-    "description": "We are a leading digital marketing company powered by a team of experienced marketers and strategists who specialize in building strong online visibility and driving high-quality engagement. Through integrated online marketing services such as SEO, content marketing, social media marketing, and performance-driven campaigns, we focus on delivering measurable results that fuel long-term business growth.",
+    "subheading": "We help businesses attract, engage, and convert their ideal customers through data-driven digital marketing strategies aligned with their unique goals. As a results-oriented digital marketing agency, we combine creativity, performance marketing, and analytics to drive scalable growth across multiple digital channels. Our team of experienced marketers and strategists focuses on building strong online visibility and meaningful audience engagement. Through integrated digital marketing services such as SEO, content marketing, social media marketing, and performance campaigns, we deliver measurable outcomes that support sustainable, long-term business growth.",
     "buttons": [
       {
         "label": "book a free consultation",
@@ -16,10 +20,8 @@
   "about": {
     "title": "About Us",
     "paragraphs": [
-      "Where creativity meets strategy, we transform businesses into powerful digital brands. As a results-driven digital marketing agency, we go beyond traditional marketing to become a true growth partner for businesses looking to scale in today’s competitive digital scenario. We don’t believe in one-size-fits-all solutions, every brand deserves a strategy built around its unique goals, audience, and market.",
-      "Our mission is simple: to craft customized, innovative digital marketing solutions that help brands stand out, connect meaningfully with their audience, and achieve long-term impact. By combining creative storytelling with data-driven digital marketing strategies, we deliver campaigns that not only look good but perform exceptionally well. From increasing brand visibility to improving customer engagement and driving conversions, our focus is always on measurable results.",
-      "As one of the leading digital marketing services providers, our agency is powered by a passionate team of strategists, creative thinkers, and digital specialists who thrive on challenges. We specialize in a wide range of online marketing services, including SEO, content marketing, social media marketing, performance marketing, and conversion optimization. Every strategy we build is backed by insights, analytics, and continuous optimization.",
-      "Whether your goal is to strengthen your brand’s online presence, generate high-quality leads, or maximize ROI, we align our expertise with your business objectives. As a trusted digital marketing company, we take pride in turning ideas into impactful digital experiences making your goals our goals, and your growth our success."
+      "Where creativity meets strategy, we help transform businesses into powerful digital brands. As a results-oriented digital marketing firm, we go beyond conventional marketing to become a genuine growth partner for companies seeking opportunities in the competitive digital market of today. We recognize the uniqueness of each brand, leading us to steer clear of generic solutions and instead develop customized strategies that cater to their specific goals, audience, and market. By combining creative storytelling with data-driven marketing strategies, we design campaigns that strengthen brand visibility, build meaningful audience connections, and deliver measurable results.",
+      "Our team of strategists, creative thinkers, and digital specialists collaborates to deliver impactful online marketing solutions. We specialize in services such as SEO, content marketing, social media marketing, performance marketing, and conversion optimization, ensuring every strategy is backed by insights, analytics, and continuous improvement. Whether the goal is to build a stronger online presence, generate quality leads, or maximize ROI, we align our expertise with business objectives to turn ideas into powerful digital experiences and long-term growth."
     ],
 
     "achievements": [
@@ -27,27 +29,6 @@
       { "icon": "Users", "value": "30+", "label": "Happy Clients" },
       { "icon": "Target", "value": "98%", "label": "Client Satisfaction" },
       { "icon": "Award", "value": "5+", "label": "Years Experience" }
-    ]
-  },
-  "skills": {
-    "title": "My Skills",
-    "description": "Expertise across all aspects of modern SEO and digital marketing",
-    "skills": [
-      {
-        "icon": "Search",
-        "name": "SEARCH ENGINE OPTIMIZATION (SEO)",
-        "level": 95
-      },
-      {
-        "icon": "Target",
-        "name": "SEARCH ENGINE MARKETING (SEM)",
-        "level": 90
-      },
-      { "icon": "Share2", "name": "SOCIAL MEDIA MARKETING (SMM)", "level": 88 },
-      { "icon": "FileEdit", "name": "CONTENT MARKETING", "level": 92 },
-      { "icon": "MapPin", "name": "LOCAL SEO", "level": 85 },
-      { "icon": "Mail", "name": "EMAIL MARKETING", "level": 90 },
-      { "icon": "Award", "name": "PERSONAL BRANDING", "level": 90 }
     ]
   },
   "trusted_companies": {
@@ -76,6 +57,50 @@
       {
         "name": "Web Engage",
         "logo": "/assets/company-logo/web-engage.svg"
+      },
+      {
+        "name":"Atom Interiors",
+        "logo":"/assets/company-logo/atom-interiors.png"
+      },
+      {
+        "name":"Bangalore School of Design and technology",
+        "logo":"/assets/company-logo/bangalore-school.png"
+      },
+      {
+        "name":"Chemstock for Chemicals",
+        "logo":"/assets/company-logo/chemstock.png"
+      },
+      {
+        "name":"Coach Coegi",
+        "logo":"/assets/company-logo/coach-coegi.png"
+      },
+      {
+        "name":"Elders Wealth",
+        "logo":"/assets/company-logo/elders-wealth.png"
+      },
+      {
+        "name":"First Meridian",
+        "logo":"/assets/company-logo/first-meridian.png"
+      },
+      {
+        "name":"JD Institute of Fashion Technology",
+        "logo":"/assets/company-logo/jd-institute-of-fashion-technology.png"
+      },
+      {
+        "name":"Mediquest Inc",
+        "logo":"/assets/company-logo/mediquest.png"
+      },
+      {
+        "name":"Samyakk",
+        "logo":"/assets/company-logo/samyakk.png"
+      },
+      {
+        "name":"Takeleap",
+        "logo":"/assets/company-logo/takeleap.png"
+      },
+      {
+        "name":"Unicare Services",
+        "logo":"/assets/company-logo/unicare-services.png"
       }
     ]
   },
@@ -86,63 +111,63 @@
       {
         "icon": "Search",
         "title": "Search Engine Optimization (SEO)",
-        "description": "Improve your website's visibility and rankings with expert SEO services aimed for growth.",
+        "description": "Enhance your website’s visibility, attract high-intent traffic, and drive consistent growth through proven SEO (search engine optimization) strategies.",
         "link": "/services/seo-audit",
         "image": "/assets/home/services/seo.jpg"
       },
       {
         "icon": "BarChart",
         "title": "Search Engine Marketing (SEM)",
-        "description": "Reach more customers with targeted search engine marketing strategies that increase visibility and deliver measurable results.",
+        "description": "Increase brand visibility and conversions through data-driven strategies for search engine marketing that generate real business results.",
         "link": "/services/search-engine-marketing",
         "image": "/assets/home/services/sem.png"
       },
       {
         "icon": "Share2",
         "title": "Social Media Marketing (SMM)",
-        "description": "Effective social media marketing services improve your brand, drive engagement, and generate leads.",
+        "description": "Build a strong brand presence, boost engagement, and generate quality leads with effective social media marketing strategies.",
         "link": "/services/social-media-marketing",
         "image": "/assets/home/services/smm.jpg"
       },
       {
         "icon": "FileText",
         "title": "Content Marketing",
-        "description": "Content marketing services create engaging content that captures attention, educates, and turns viewers into loyal customers.",
+        "description": "Strengthen your brand authority with high-quality content marketing solutions that inform, engage, and inspire customer action.",
         "link": "/services/content-marketing",
         "image": "/assets/home/services/content-marketing.jpg"
       },
       {
         "icon": "MapPin",
         "title": "Local SEO",
-        "description": "Improve your regional visibility with expert local SEO strategies that optimize local searches and connect you with nearby customers.",
+        "description": "Boost your regional visibility with expert local SEO strategies that improve local search rankings and connect you with nearby customers.",
         "link": "/services/local-seo",
         "image": "/assets/home/services/local-seo.png"
       },
       {
         "icon": "Mail",
         "title": "Email Marketing",
-        "description": "Connect with customers using personalized email marketing services designed to increase conversions and build loyalty.",
+        "description": "Connect with your audience through personalized email marketing strategies designed to boost conversions and build long-term customer loyalty.",
         "link": "/services/email-marketing",
         "image": "/assets/home/services/email-marketing.png"
       },
       {
         "icon": "User",
         "title": "Personal Branding",
-        "description": "Build your brand with creative services that build a strong and unique presence in the market.",
+        "description": "Build a strong and distinctive personal brand with creative branding services designed to establish a unique market presence.",
         "link": "/services/personal-branding",
         "image": "/assets/home/services/personal-branding.jpeg"
       },
       {
         "icon": "FileText",
         "title": "Guest Posting Services",
-        "description": "Boost your authority with high-quality guest posts on reputable websites that drive traffic and improve SEO rankings.",
+        "description": "Build brand authority with high-quality guest posts on reputable websites that drive targeted traffic and strengthen SEO rankings.",
         "link": "/services/guest-posting",
         "image": "/assets/home/services/guest-post.png"
       },
       {
         "icon": "Search",
         "title": "Link Building",
-        "description": "Strengthen your website's authority with strategic link building campaigns that enhance visibility and search rankings.",
+        "description": "Boost your rankings and organic traffic with high-quality, strategic link building designed to strengthen your site’s online authority.",
         "link": "/services/link-building",
         "image": "/assets/home/services/link-building.jpg"
       }
@@ -150,81 +175,81 @@
   },
   "whyus": {
     "title": "Why Choose Us?",
-    "subtitle": "We’re a results-driven digital marketing agency that makes your vision our mission. With proven expertise, creative strategies, and a transparent process, we help businesses grow, engage audiences, and drive measurable results. Every campaign is tailored to your goals, ensuring increased visibility, meaningful engagement, and long-term success.",
+    "subtitle": "We are a results-driven digital marketing agency committed to turning your vision into measurable success. Through strategic planning, creative execution, and a transparent approach, we help businesses grow their online presence, connect with the right audience, and achieve impactful results. Every campaign is carefully tailored to your goals, ensuring stronger visibility, deeper engagement, and sustainable long-term growth. ",
     "highlight": "We Make Your Vision Our Mission",
     "reasons": [
       {
         "image": "/assets/why-us/results-driven.png",
         "title": "Results-Driven",
-        "description": "We turn strategies into results. Each campaign is fine-tuned to deliver actual performance metrics, maximizing ROI and driving meaningful business growth beyond superficial numbers."
+        "description": "We focus on turning strategies into measurable outcomes. Every campaign is optimized to deliver real performance, maximizing ROI and driving meaningful business growth beyond vanity metrics."
       },
       {
         "image": "/assets/why-us/customized-campaigns.png",
         "title": "Customized Campaigns",
-        "description": "We design marketing strategies tailored to your business objectives, ensuring every campaign connects directly with your target audience and drives measurable results."
+        "description": "We create marketing strategies tailored to your business goals, ensuring every campaign effectively reaches your target audience and delivers measurable results."
       },
       {
         "image": "/assets/why-us/innovative-techniques.png",
         "title": "Innovative Techniques",
-        "description": "We leverage the latest tools and emerging marketing strategies to keep your business ahead of the competition and deliver measurable results."
+        "description": "We use the latest tools and modern marketing strategies to help your business stay ahead of the competition while delivering measurable and impactful results."
       },
       {
         "image": "/assets/why-us/experienced-team.png",
         "title": "Experienced Team",
-        "description": "Our team of experts combines years of digital marketing experience with creative insight and analytical precision to deliver campaigns that drive real results."
+        "description": "Our skilled team blends extensive digital marketing experience with creative thinking and data-driven insights to create campaigns that deliver real, measurable results."
 
       },
       {
         "image":  "/assets/why-us/smart-strategies.png",
         "title": "Smart Strategies",
-        "description": "We use data-driven insights and proven frameworks to guide every campaign, ensuring your business grows efficiently and effectively."
+        "description": "We leverage data-driven insights and proven frameworks to guide every campaign, ensuring efficient execution and sustainable business growth."
       },
       {
         "image": "/assets/why-us/client-satisfaction.png",
         "title": "Client Satisfaction",
-        "description": "Our commitment to delivering measurable outcomes and open communication ensures high client satisfaction and enduring partnerships."
+        "description": "Our focus on measurable results and transparent communication builds strong client satisfaction and long-term partnerships."
       }
     ]
   },
   "work_process": {
     "title": "Our Work Process",
-    "sub_title": "From strategy to execution, our structured process guarantees measurable outcomes and consistent business growth.",
+    "sub_title": "From planning to execution, our structured approach ensures measurable results and consistent business growth.",
     "steps": [
       {
         "icon": "Lightbulb",
         "title": "Strategic Planning",
-        "description": "We develop customized strategies that align with your business goals, resonate with your audience, and reflect your brand's vision, ensuring optimal use of resources for maximum impact.",
+        "description": "We develop strategic campaigns that align with your brand, connect with your audience, and deliver measurable results while making the best use of resources.",
         "number": "01"
       },
       {
         "icon": "Rocket",
         "title": "Seamless Execution",
-        "description": "Our team implements strategies across multiple channels such as social media, SEO, and SMM to expand your reach, enhance engagement, and deliver measurable results.",
+        "description": "From SEO to social media marketing, we implement integrated campaigns that expand reach, increase engagement, and deliver measurable results.",
         "number": "02"
       },
       {
         "icon": "Eye",
         "title": "Continuous Monitoring",
-        "description": "We keep a close eye on campaign performance, tracking key metrics to ensure your strategies remain on course and deliver consistent success.",
+        "description": "We closely monitor campaign performance and analyze key metrics to ensure strategies remain effective and deliver consistent results.",
         "number": "03"
       },
       {
         "icon": "BarChart3",
         "title": "Data-Driven Optimization",
-        "description": "Using in-depth analysis, we refine and adjust strategies to achieve better results, improve efficiency, and capitalize on emerging opportunities.",
+        "description": "We evaluate campaign performance using data insights and continuously refine strategies to maximize results, improve efficiency, and capture new opportunities.",
         "number": "04"
       },
       {
         "icon": "TrendingUp",
         "title": "Sustainable Growth",
-        "description": "By combining strategic insights and ongoing adjustments, we drive meaningful, long-term growth for your brand, ensuring you stay ahead of the competition.",
+        "description": "We use strategic insights and ongoing optimization to drive sustainable, long-term growth and keep your brand ahead of the competition. ",
         "number": "05"
       }
     ]
   },
   "testimonials": {
     "title": "Client Testimonials",
-    "description": "Don't just take my word for it - hear from satisfied clients",
+    "description": "Hear from satisfied clients about the growth we delivered.",
     "cards": [
       {
         "name": "Sarah Johnson",

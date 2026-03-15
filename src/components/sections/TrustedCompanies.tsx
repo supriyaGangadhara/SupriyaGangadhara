@@ -10,9 +10,8 @@ interface TrustedCompaniesProps {
 
 const TrustedCompanies = (props: TrustedCompaniesProps) => {
   const companies = props?.companies ?? [];
-
   return (
-    <section className="py-12 bg-muted/30 border-y border-border overflow-hidden">
+    <section className="py-12 border-y border-border overflow-hidden">
       <div className="container mx-auto mb-8 max-md:px-4">
         <h3 className="text-center text-lg font-semibold text-muted-foreground">
           {props?.title}

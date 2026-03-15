@@ -23,7 +23,7 @@ interface AboutProps {
 const About = (props: AboutProps) => {
 
   return (
-    <section id="about" className="py-20 bg-card">
+    <section id="about" className="py-20 ">
       <div className="container mx-auto max-md:px-4">
 
         <div className="max-w-5xl mx-auto">

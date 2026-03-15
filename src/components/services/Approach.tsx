@@ -52,7 +52,7 @@ const itemVariants = {
 
 export const Approach = ({ items, title, subtitle }: ApproachProps) => {
   return (
-    <section className="py-24 px-4 relative bg-gradient-to-b from-background to-secondary/20">
+    <section className="py-24 px-4 relative">
       <div className="container mx-auto max-md:px-4">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">

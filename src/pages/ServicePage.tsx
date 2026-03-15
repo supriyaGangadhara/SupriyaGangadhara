@@ -51,10 +51,10 @@ const ServicePage = () => {
   };
 
   useSEO({
-    title: seoTitle,
-    description: seoDescription,
+    title: data?.seo?.title,
+    description: data?.seo?.description,
     canonical: `/${serviceId}`,
-    keywords: `${formatServiceName(serviceId || '')}, digital marketing, ${serviceId}, marketing services, India`,
+    keywords: data?.seo?.keywords,
     ogImage: data?.hero?.bg ? `https://supriyagrowth.com${data.hero.bg}` : undefined,
   });
 
@@ -77,7 +77,7 @@ const ServicePage = () => {
           bgImg={data?.hero?.bg ?? ""}
         />
 
-        {data?.whySeoMatters && <section className="py-24 px-4 relative bg-gradient-to-b from-background to-secondary/20">
+        {data?.whySeoMatters && <section className="py-24 px-4 relative">
           <div className=" container mx-auto ">
             <h2 className="text-4xl text-center xl:text-5xl font-bold bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
               {data?.whySeoMatters?.title}

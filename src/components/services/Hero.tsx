@@ -27,8 +27,8 @@ export const Hero = ({ title, tagline, contents, bgImg, cta }: HeroProps) => {
         variants={containerVariants}
       >
 
-        <div className="absolute inset-0 bg-[image:var(--gradient-hero)]" />
-        <div className="absolute inset-0 bg-gradient-radial from-primary/20 via-transparent to-transparent" />
+        {/* <div className="absolute inset-0 bg-[image:var(--gradient-hero)]" />
+        <div className="absolute inset-0 bg-gradient-radial from-primary/20 via-transparent to-transparent" /> */}
 
         <div className="flex max-xl:flex-col xl:justify-between items-center gap-4 container mx-auto">
           <div className=" grid items-center max-xl:text-center relative z-10 py-10 xl:py-20">

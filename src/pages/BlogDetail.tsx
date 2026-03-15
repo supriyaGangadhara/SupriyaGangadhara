@@ -30,12 +30,12 @@ const BlogDetail = () => {
 
   // SEO for blog detail page
   useSEO({
-    title: blog ? `${blog.title} | Supriya Growth Hub Blog` : "Blog Not Found | Supriya Growth Hub",
+    title: blog ? `${blog.title} | Supriyagangadhara Blog` : "Blog Not Found | Supriyagangadhara",
     description: blog?.excerpt || "Read our latest digital marketing insights and tips.",
     canonical: `/blog/${blogId}`,
     ogType: "article",
-    ogImage: blog?.image ? `https://supriyagrowthhub.com${blog.image}` : undefined,
-    author: blog?.author || "Supriya Growth Hub",
+    ogImage: blog?.image ? `https://supriyagangadhara.com${blog.image}` : undefined,
+    author: blog?.author || "Supriyagangadhara",
     keywords: blog ? `${getCategoryName(blog?.category)}, digital marketing, ${blog.title}` : "digital marketing blog",
   });
 
@@ -113,26 +113,6 @@ const BlogDetail = () => {
       {/* Hero Section */}
       <section className="pt-28 pb-8">
         <div className="container mx-auto px-4">
-          {/* Breadcrumb */}
-          <Breadcrumb className="mb-8">
-            <BreadcrumbList>
-              <BreadcrumbItem>
-                <BreadcrumbLink asChild>
-                  <Link to="/">Home</Link>
-                </BreadcrumbLink>
-              </BreadcrumbItem>
-              <BreadcrumbSeparator />
-              <BreadcrumbItem>
-                <BreadcrumbLink asChild>
-                  <Link to="/blogs">Blogs</Link>
-                </BreadcrumbLink>
-              </BreadcrumbItem>
-              <BreadcrumbSeparator />
-              <BreadcrumbItem>
-                <BreadcrumbPage>{blog.title}</BreadcrumbPage>
-              </BreadcrumbItem>
-            </BreadcrumbList>
-          </Breadcrumb>
 
           <motion.div
             className="max-w-4xl mx-auto"

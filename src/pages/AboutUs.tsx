@@ -38,19 +38,19 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 };
 
 const AboutUs = () => {
-  const { hero, whoWeAre, whatWeDo, ourApproach, whyChooseUs, missionVision, cta } = aboutData;
+  const { hero, whoWeAre, whatWeDo, ourApproach, whyChooseUs, missionVision, cta,seo } = aboutData;
   useSEO({
-    title: "About Us | Supriya Growth - Digital Marketing Agency",
-    description: "Learn about Supriya Growth, a results-driven digital marketing agency helping businesses grow through SEO, SEM, content marketing, and social media strategies.",
+    title: seo?.title ?? "About Us | Supriya Growth - Digital Marketing Agency",
+    description: seo?.description ?? "Learn about Supriya Growth, a results-driven digital marketing agency helping businesses grow through SEO, SEM, content marketing, and social media strategies.",
     canonical: "/about-us",
-    keywords: "about us, digital marketing agency, Supriya Growth, marketing team, India",
+    keywords: seo?.keywords ?? "about us, digital marketing agency, Supriya Growth, marketing team, India",
   });
 
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative py-10 md:py-10 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-purple-500/10" />
+        {/* <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-purple-500/10" /> */}
         <div className="container mx-auto px-4 relative z-10">
           <div className="flex max-xl:flex-col items-center gap-6">
             <motion.div
@@ -97,7 +97,7 @@ const AboutUs = () => {
       </section>
 
       {/* Who We Are */}
-      <section className="py-20 bg-card">
+      <section className="py-20">
         <div className="container mx-auto px-4 md:px-12">
           <motion.div
             className=""
@@ -178,7 +178,7 @@ const AboutUs = () => {
       </section>
 
       {/* Our Approach */}
-      <section className="py-20 bg-card">
+      <section className="py-20">
         <div className="container mx-auto px-4 md:px-12">
           <div className=" mx-auto">
             <motion.h2
@@ -291,7 +291,7 @@ const AboutUs = () => {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-20 bg-card">
+      <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <motion.div
@@ -326,7 +326,7 @@ const AboutUs = () => {
 
       {/* CTA Section */}
       <section className="py-20 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-purple-500/5" />
+        {/* <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-purple-500/5" /> */}
         <div className="container mx-auto px-4 relative z-10">
           <motion.div
             className="max-w-3xl mx-auto text-center"

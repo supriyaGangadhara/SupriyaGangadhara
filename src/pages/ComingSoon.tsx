@@ -9,8 +9,8 @@ const ComingSoon = () => {
   return (
     <main className="relative min-h-screen flex items-center justify-center overflow-hidden px-4">
       {/* Background */}
-      <div className="absolute inset-0 bg-[image:var(--gradient-hero)]" />
-      <div className="absolute inset-0 bg-gradient-radial from-primary/10 via-transparent to-transparent" />
+      {/* <div className="absolute inset-0 bg-[image:var(--gradient-hero)]" />
+      <div className="absolute inset-0 bg-gradient-radial from-primary/10 via-transparent to-transparent" /> */}
 
       {/* Floating orbs */}
       <motion.div

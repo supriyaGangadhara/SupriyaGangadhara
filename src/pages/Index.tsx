@@ -2,8 +2,6 @@ import { useEffect } from "react";
 import Hero from "@/components/sections/Hero";
 import TrustedCompanies from "@/components/sections/TrustedCompanies";
 import About from "@/components/sections/About";
-import Skills from "@/components/sections/Skills";
-// import Projects from "@/components/sections/Projects";
 import Services from "@/components/sections/Services";
 import WhyUs from "@/components/sections/WhyUs";
 import WorkProcess from "@/components/sections/WorkProcess";
@@ -17,10 +15,10 @@ import useSEO from "@/hooks/use-seo";
 const Index = () => {
 
   useSEO({
-    title: "Supriya Growth Hub | Results-Driven Digital Marketing Services",
-    description: "Transform your business with creative and results-driven digital marketing strategies. Expert SEO, SEM, SMM, content marketing, and personal branding services customized to your goals.",
+    title: json?.seo?.title ?? "Digital Marketing Services That Actually Drive Real Results Digital Marketing Services & SEO Agency | Supriyagangadhara Best Digital Marketing Agency | Supriyagangadhara",
+    description: json?.seo?.description ?? "Stop wasting money on ineffective digital marketing. Get proven SEO, PPC & content strategies that increase traffic, leads & sales. Free consultation available. Top digital marketing agency offering SEO, SEM, SMM, content marketing & personal branding. Data-driven strategies to boost your online visibility & ROI.",
     canonical: "",
-    keywords: "digital marketing, SEO services, SEM, social media marketing, content marketing, personal branding, India",
+    keywords: json?.seo?.keywords ?? "Digital Marketing Services, SEO, Social Media Marketing, PPC",
   });
   
   useEffect(() => {

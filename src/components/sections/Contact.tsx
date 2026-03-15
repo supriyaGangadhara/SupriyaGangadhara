@@ -14,7 +14,7 @@ const Contact = (props: ContactProps) => {
   
 
   return (
-    <section id="contact" className="py-20 gradient-hero">
+    <section id="contact" className="py-20">
       <div className="container mx-auto max-md:px-4">
         <div className="max-w-5xl mx-auto">
           {/* Header */}
