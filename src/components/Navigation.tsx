@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Moon, Sun, ChevronDown } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { useTheme } from "next-themes";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -13,7 +12,6 @@ import {
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
-  const { theme, setTheme } = useTheme();
 
   const services = [
     { name: "SEO Services", path: "/services/search-engine-optimization" },
@@ -41,16 +39,12 @@ const Navigation = () => {
     return location.hash === path?.split("#")[1] ? `#${path?.split("#")[1]}` : "";
   };
 
-
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2">
-            {/* <div className="w-8 h-8 gradient-primary rounded-lg"></div>
-            <span className="text-xl font-bold">Supriya
-            </span> */}
-            <img src={theme === "dark" ? "/assets/logo/logo-dark.svg" : "/assets/logo/logo-white.svg"} alt="supriya logo" className="aspect-[80/60] 3xl:aspect-[290/90]" />
+            <img src="/assets/logo/logo-white.svg" alt="supriya logo" className="aspect-[80/60] 3xl:aspect-[290/90]" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -60,8 +54,7 @@ const Navigation = () => {
                 {link.type === "link" ?
                   <a
                     href={link.path}
-                    className={`text-sm font-medium transition-colors hover:text-primary ${isActive(link.path) ? "text-primary" : "text-foreground"
-                      }`}
+                    className={`text-sm font-medium transition-colors hover:text-primary ${isActive(link.path) ? "text-primary" : "text-foreground"}`}
                   >
                     {link.name}
                   </a>
@@ -84,17 +77,6 @@ const Navigation = () => {
               </div>
             ))}
 
-
-
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-            >
-              <Sun className="h-5 w-5 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-              <Moon className="absolute h-5 w-5 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
-            </Button>
-
             <Button variant="hero" size="sm" asChild>
               <a href="/#contact">Contact Us</a>
             </Button>
@@ -103,7 +85,7 @@ const Navigation = () => {
           {/* Mobile Menu Button */}
           <button
             className="md:hidden p-2"
-            onClick={() => setIsOpen((isOpen)=> isOpen = !isOpen)}
+            onClick={() => setIsOpen((isOpen) => isOpen = !isOpen)}
             aria-label="Toggle menu"
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -119,8 +101,7 @@ const Navigation = () => {
                   key={link.name}
                   href={link.path}
                   onClick={() => setIsOpen(false)}
-                  className={`text-sm font-medium transition-colors hover:text-primary ${isActive(link.path) ? "text-primary" : "text-foreground"
-                    }`}
+                  className={`text-sm font-medium transition-colors hover:text-primary ${isActive(link.path) ? "text-primary" : "text-foreground"}`}
                 >
                   {link.name}
                 </a>
@@ -139,16 +120,6 @@ const Navigation = () => {
                   </Link>
                 ))}
               </div>
-
-              <Button
-                variant="ghost"
-                size="sm"
-                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                className="w-full"
-              >
-                {theme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-                <span className="ml-2">{theme === "dark" ? "Light" : "Dark"} Mode</span>
-              </Button>
 
               <Button variant="hero" size="sm" className="w-full" asChild>
                 <a href="#contact" onClick={() => setIsOpen(false)}>
