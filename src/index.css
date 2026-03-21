@@ -8,87 +8,206 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* ── Tailwind/shadcn HSL tokens (required by component system) ── */
     --background: 0 0% 100%;
     --foreground: 0 0% 0%;
-
     --card: 0 0% 98%;
     --card-foreground: 0 0% 0%;
-
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 0%;
-
-    /* --primary: 270 91% 65%; */
     --primary: 266 70% 62%;
-
     --primary-foreground: 0 0% 100%;
-
     --secondary: 270 20% 95%;
     --secondary-foreground: 0 0% 0%;
-
     --muted: 270 20% 96%;
     --muted-foreground: 0 0% 45%;
-
     --accent: 280 100% 70%;
     --accent-foreground: 0 0% 100%;
-
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
-
     --border: 270 20% 90%;
     --input: 270 20% 90%;
-    --ring: 270 91% 65%;
-
+    --ring: 266 70% 62%;
     --radius: 0.75rem;
 
-    /* Custom design tokens */
-    /* --gradient-primary: linear-gradient(135deg, hsl(270 91% 65%), hsl(280 100% 70%)); */
-    --gradient-primary: linear-gradient(135deg, hsl(266 70% 62%), hsl(280 90% 68%));
-    /* --gradient-primary: linear-gradient(135deg, hsl(266 70% 62%), hsl(240 70% 60%)); */
+    /* ── Brand colors ── */
+    --primary-color: #955ae2;
+    --secondary-color: #cc66ff;
 
+    /* ── Primary opacity scale (color-mix) ── */
+    --primary-color-10: color-mix(in srgb, var(--primary-color) 10%, transparent);
+    --primary-color-20: color-mix(in srgb, var(--primary-color) 20%, transparent);
+    --primary-color-30: color-mix(in srgb, var(--primary-color) 30%, transparent);
+    --primary-color-40: color-mix(in srgb, var(--primary-color) 40%, transparent);
+    --primary-color-50: color-mix(in srgb, var(--primary-color) 50%, transparent);
+    --primary-color-60: color-mix(in srgb, var(--primary-color) 60%, transparent);
+    --primary-color-70: color-mix(in srgb, var(--primary-color) 70%, transparent);
+    --primary-color-80: color-mix(in srgb, var(--primary-color) 80%, transparent);
+    --primary-color-90: color-mix(in srgb, var(--primary-color) 90%, transparent);
 
-    --gradient-hero: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(270 100% 98%) 100%);
-    --shadow-soft: 0 4px 6px -1px hsl(270 91% 65% / 0.1), 0 2px 4px -1px hsl(270 91% 65% / 0.06);
-    --shadow-medium: 0 10px 15px -3px hsl(270 91% 65% / 0.1), 0 4px 6px -2px hsl(270 91% 65% / 0.05);
-    --shadow-large: 0 20px 25px -5px hsl(270 91% 65% / 0.1), 0 10px 10px -5px hsl(270 91% 65% / 0.04);
+    /* ── Semantic status colors ── */
+    --success-color: #22c55e;
+    --warn-color:    #eab308;
+    --error-color:   #ff3d32;
+
+    /* ── Text scale ── */
+    --text-1: #6b7280;
+    --text-2: #6b7280;
+    --text-3: #1f1235;
+    --text-4: #2d1b4e;
+    --text-5: #3b2468;
+    --text-inverse: #ffffff;
+
+    /* ── Gradients ── */
+    --primary-radial-gradient: radial-gradient(
+        59.99% 73.82% at 38.34% 18.48%,
+        rgba(255, 255, 255, 0.36) 0%,
+        rgba(255, 255, 255, 0) 56.9%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      linear-gradient(180deg, var(--primary-color-20) 0%, var(--primary-color-90) 100%);
+    --gradient-primary: linear-gradient(135deg, #955ae2, #cc66ff);
+    --gradient-hero:    linear-gradient(180deg, #ffffff 0%, hsl(270 100% 98%) 100%);
+
+    /* ── Purple palette ── */
+    --purple-50:  #f5eeff;
+    --purple-100: #e4ccff;
+    --purple-200: #c99dff;
+    --purple-300: #aa6ef0;
+    --purple-400: #a855f7;
+    --purple-500: #955ae2;
+    --purple-600: #7c3aed;
+    --purple-700: #6d28d9;
+    --purple-800: #4c1d95;
+    --purple-900: #2e1065;
+
+    /* ── Accent/pink palette ── */
+    --pink-50:  #fdf0ff;
+    --pink-200: #e599ff;
+    --pink-500: #cc66ff;
+
+    /* ── Neutral palette ── */
+    --bluegray-25:  #f9fafb;
+    --bluegray-50:  #f7f7fb;
+    --bluegray-100: #e4e0ef;
+    --bluegray-300: #a89fc0;
+    --bluegray-600: #5c5370;
+    --bluegray-700: #1e1535;
+    --bluegray-800: #2d1f47;
+    --bluegray-900: #1a0e30;
+
+    /* ── Utility palettes ── */
+    --green-50:  #f4fcf7;
+    --green-100: #bbf3d0;
+    --green-200: #68e496;
+    --green-500: #22c55e;
+    --green-600: #1da750;
+    --yellow-50:      #fefbf3;
+    --yellow-500:     #eab308;
+    --red-50:         #fff5f5;
+    --red-500:        #ff3d32;
+    --blue-50:        #f5f5ff;
+    --blue-100:       #d4d0fd;
+    --blue-500:       #6366f1;
+    --blue-600:       #4f46e5;
+    --cyan-50:        #ecfeff;
+    --cyan-500:       #06b6d4;
+    --neongreen-50:   #e6fff5;
+    --neongreen-500:  #35e098;
+    --color-black: #000000;
+    --color-white: #ffffff;
+
+    /* ── Shadows ── */
+    --shadow-soft:    0 4px 6px -1px color-mix(in srgb, var(--primary-color) 10%, transparent),
+                      0 2px 4px -1px  color-mix(in srgb, var(--primary-color) 6%, transparent);
+    --shadow-medium:  0 10px 15px -3px color-mix(in srgb, var(--primary-color) 10%, transparent),
+                      0 4px 6px -2px   color-mix(in srgb, var(--primary-color) 5%, transparent);
+    --shadow-large:   0 20px 25px -5px color-mix(in srgb, var(--primary-color) 10%, transparent),
+                      0 10px 10px -5px color-mix(in srgb, var(--primary-color) 4%, transparent);
+    --shadow-primary: 0px -7px 14px 0px rgba(255,255,255,.5),
+                      0px 7px 14px 0px color-mix(in srgb, var(--primary-color) 35%, transparent),
+                      0px 8px 16px 0px var(--color-white),
+                      0px -8px 16px 0px color-mix(in srgb, var(--primary-color) 15%, transparent);
+    --shadow-primary-hover: 0px -7px 14px 0px rgba(255,255,255,.5),
+                            0px 7px 14px 0px color-mix(in srgb, var(--primary-color) 50%, transparent),
+                            0px 8px 16px 0px var(--color-white),
+                            0px -8px 16px 0px color-mix(in srgb, var(--primary-color) 20%, transparent);
+    --shadow-secondary:       0px -7px 14px 0px rgba(255,255,255,.5),
+                              0px 7px 14px 0px rgba(218,222,227,.6),
+                              0px 8px 16px 0px var(--color-white),
+                              0px -8px 16px 0px rgba(218,222,227,.3);
+    --shadow-secondary-hover: 0px -7px 14px 0px rgba(255,255,255,.5),
+                              0px 7px 14px 0px rgba(218,222,227,.8),
+                              0px 8px 16px 0px var(--color-white),
+                              0px -8px 16px 0px rgba(218,222,227,.4);
+    --shadow-tertiary:        0px 2px 8px 0px rgba(0,0,0,.07);
+    --shadow-tertiary-hover:  0px 5px 12px 1px rgba(0,0,0,.07);
+    --shadow-nav:     0px 1px 7px 0px rgba(0,0,0,.12);
+    --shadow-section: 0px 0px 10px 0px rgba(0,0,0,.1);
+    --shadow-default: 0px 1px 4px 0px rgba(0,0,0,.2);
+    --shadow-card:    0px 1px 4px 0px rgba(0,0,0,.1);
+    --shadow-v:       0px 4px 9px 0px rgba(0,0,0,.2);
+
+    /* ── Border radius ── */
+    --radius-xs:      2px;
+    --radius-sm:      4px;
+    --radius-md:      6px;
+    --radius-lg:      8px;
+    --radius-lr:      12px;
+    --radius-xl:      18px;
+    --radius-section: 49px;
+    --radius-pill:    50%;
+    --radius-full:    9999px;
+
+    /* ── Border colors ── */
+    --border-1: #e9e0f7;
+
+    /* ── Z-index scale ── */
+    --z-minus-2: -2;
+    --z-minus-1: -1;
+    --z-default: 0;
+    --z-1: 1;
+    --z-2: 2;
+    --z-3: 3;
+    --z-4: 4;
+    --z-5: 5;
   }
 
   .dark {
     --background: 0 0% 5%;
     --foreground: 0 0% 98%;
-
     --card: 0 0% 8%;
     --card-foreground: 0 0% 98%;
-
     --popover: 0 0% 8%;
     --popover-foreground: 0 0% 98%;
-
-    /* --primary: 270 91% 65%; */
     --primary: 266 70% 62%;
-
     --primary-foreground: 0 0% 100%;
-
     --secondary: 0 0% 12%;
     --secondary-foreground: 0 0% 98%;
-
     --muted: 0 0% 12%;
     --muted-foreground: 0 0% 65%;
-
     --accent: 280 100% 70%;
     --accent-foreground: 0 0% 100%;
-
     --destructive: 0 63% 31%;
     --destructive-foreground: 0 0% 98%;
-
     --border: 0 0% 15%;
     --input: 0 0% 15%;
-    --ring: 270 91% 65%;
+    --ring: 266 70% 62%;
 
-    /* --gradient-primary: linear-gradient(135deg, hsl(270 91% 65%), hsl(280 100% 70%)); */
-    /* --gradient-primary: linear-gradient(135deg, hsl(266 70% 62%), hsl(240 70% 60%)); */
-    --gradient-primary: linear-gradient(135deg, hsl(266 70% 62%), hsl(280 90% 68%));
-    
-    
-    --gradient-hero: linear-gradient(180deg, hsl(0 0% 5%) 0%, hsl(270 50% 10%) 100%);
+    --gradient-primary: linear-gradient(135deg, #955ae2, #cc66ff);
+    --gradient-hero:    linear-gradient(180deg, hsl(0 0% 5%) 0%, hsl(270 50% 10%) 100%);
+
+    --text-1: #a89fc0;
+    --text-2: #a89fc0;
+    --text-3: #e4d8ff;
+    --text-4: #d1b8ff;
+    --text-5: #c4a0ff;
+
+    --border-1: #2d1f47;
+
+    --bluegray-50:  #1a0e30;
+    --bluegray-100: #2d1f47;
+    --bluegray-300: #5c4d7a;
   }
 }
 

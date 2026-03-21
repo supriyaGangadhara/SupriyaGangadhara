@@ -53,7 +53,7 @@ const ServicePage = () => {
   useSEO({
     title: data?.seo?.title,
     description: data?.seo?.description,
-    canonical: `/${serviceId}`,
+    canonical: `/services/${serviceId}`,
     keywords: data?.seo?.keywords,
     ogImage: data?.hero?.bg ? `https://supriyagrowth.com${data.hero.bg}` : undefined,
   });

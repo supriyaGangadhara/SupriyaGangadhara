@@ -1,16 +1,17 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { useEffect, useState, useMemo } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 
-const iconMap = {
+const iconMap: Record<string, React.ElementType> = {
   ArrowRight,
 };
 
-interface Button {
+interface HeroButton {
   label: string;
   href: string;
-  variant: string;
+  variant: "default" | "outline" | "ghost" | "link" | "destructive" | "secondary" | "hero";
   icon?: string;
 }
 
@@ -18,7 +19,7 @@ interface HeroProps {
   title?: string;
   subheading?: string;
   description?: string;
-  buttons?: Button[];
+  buttons?: HeroButton[];
 }
 
 const Hero = (props: HeroProps) => {
@@ -59,61 +60,90 @@ const Hero = (props: HeroProps) => {
   }, [text, isDeleting, wordIndex, words]);
 
   return (
-    <section className="xl:pt-32 xl:pb-20 py-10 relative overflow-hidden">
+    <section className="xl:pb-20 py-10 pt-20 relative overflow-hidden">
       {/* Hero Content */}
       <div className="container mx-auto relative z-10 max-md:px-4">
-        <div className="max-w-6xl mx-auto text-center">
-          {/* Title */}
-          <motion.h1
-            className="text-5xl xl:text-7xl mb-6 leading-tight font-bold"
-            initial={{ opacity: 0, y: -50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
-          >
-            {props?.title}{" "}
-            <span className="text-primary">{text}</span>
-            <span className="border-r-2 border-primary animate-pulse ml-1"></span>
-          </motion.h1>
+        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-10">
+          {/* Left: Text Content */}
+          <div className="flex-1 min-w-0 text-center lg:text-left">
+            {/* Badge pill */}
+            <motion.div
+              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/10 text-primary text-sm font-medium mb-6"
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6 }}
+            >
+              <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
+              Trusted by 30+ Brands
+            </motion.div>
 
-          {/* Subheading */}
-          <motion.p
-            className="text-xl md:text-2xl text-muted-foreground mb-4 mx-auto"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.5 }}
-          >
-            {props?.subheading}
-          </motion.p>
+            {/* Title */}
+            <motion.h1
+              className="text-4xl lg:text-5xl xl:text-6xl mb-5 leading-tight font-bold"
+              initial={{ opacity: 0, y: -50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+            >
+              {props?.title}{" "}
+              <span className="text-primary">{text}</span>
+              <span className="border-r-2 border-primary animate-pulse ml-1"></span>
+            </motion.h1>
 
-          {/* Description */}
-          <motion.p
-            className="text-xl md:text-2xl text-muted-foreground mb-8 mx-auto"
-            // className="text-lg text-muted-foreground mb-8 max-w-3xl mx-auto"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.7 }}
-          >
-            {props?.description}
-          </motion.p>
+            {/* Subheading */}
+            <motion.p
+              className="text-xl md:text-2xl font-medium text-foreground/80 mb-3"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.5 }}
+            >
+              {props?.subheading}
+            </motion.p>
 
-          {/* Buttons */}
+            {/* Description */}
+            {props?.description && (
+              <motion.p
+                className="text-base md:text-lg text-muted-foreground mb-8 max-w-2xl"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1, delay: 0.7 }}
+              >
+                {props?.description}
+              </motion.p>
+            )}
+
+            {/* Buttons */}
+            <motion.div
+              className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start xl:mt-10 md:mt-8 mt-6"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.9 }}
+            >
+              {props?.buttons?.map((btn: HeroButton) => {
+                const Icon = btn.icon ? iconMap[btn.icon] : null;
+                return (
+                  <Button key={btn.label} variant={btn.variant} size="lg" asChild>
+                    <a href={btn.href} target="_blank" rel="noreferrer" className="capitalize">
+                      {btn.label}
+                      {Icon && <Icon className="ml-2 w-5 h-5" />}
+                    </a>
+                  </Button>
+                );
+              })}
+            </motion.div>
+          </div>
+
+          {/* Right: Hero Image */}
           <motion.div
-            className="flex flex-col sm:flex-row gap-4 justify-center xl:mt-12 md:mt-8 mt-6"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.9 }}
+            className="w-full lg:w-[42%] shrink-0"
+            initial={{ opacity: 0, x: 60 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, delay: 0.3 }}
           >
-            {props?.buttons?.map((btn: Button, index: number) => {
-              const Icon = btn.icon ? iconMap[btn.icon] : null;
-              return (
-                <Button key={index} variant={btn.variant} size="lg" asChild>
-                  <a href={btn.href} target="_blank" className="capitalize">
-                    {btn.label}
-                    {Icon && <Icon className="ml-2 w-5 h-5" />}
-                  </a>
-                </Button>
-              );
-            })}
+            <img
+              src="/assets/home/services/seo.jpg"
+              alt="Digital Marketing Strategy"
+              className="w-full h-auto rounded-2xl shadow-2xl object-cover"
+            />
           </motion.div>
         </div>
       </div>
